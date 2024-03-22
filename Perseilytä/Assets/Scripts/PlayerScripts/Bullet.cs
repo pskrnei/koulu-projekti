@@ -9,7 +9,7 @@ public class Bullet : MonoBehaviour
     [SerializeField] private float speed = 10f;
 
     [Range(1, 10)]
-    [SerializeField] private float lifeTime = 3f;
+    [SerializeField] private float lifeTime = 1f;
 
     private Rigidbody2D rb;
 

@@ -541,8 +541,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -317.89838, y: 122}
-  m_SizeDelta: {x: 145.5494, y: 21.3781}
+  m_AnchoredPosition: {x: -291.5863, y: 111.20141}
+  m_SizeDelta: {x: 131.3768, y: 14.5753}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &857205327
 MonoBehaviour:
@@ -591,7 +591,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1003884291}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: Borders
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -628,7 +628,7 @@ GameObject:
   - component: {fileID: 1223062298}
   - component: {fileID: 1223062297}
   - component: {fileID: 1223062296}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: Borders (1)
   m_TagString: Border
   m_Icon: {fileID: 0}
@@ -642,7 +642,7 @@ BoxCollider2D:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1223062295}
-  m_Enabled: 1
+  m_Enabled: 0
   m_Density: 1
   m_Material: {fileID: 0}
   m_IncludeLayers:
@@ -741,8 +741,8 @@ Transform:
   m_GameObject: {fileID: 1223062295}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: 0.7071068, w: 0.7071068}
-  m_LocalPosition: {x: -6.7312264, y: -1.3875234, z: -0.05939071}
-  m_LocalScale: {x: 9.67135, y: 1, z: 1}
+  m_LocalPosition: {x: -9.7314, y: -1.39, z: -0.05939071}
+  m_LocalScale: {x: 9.67135, y: 4.5506907, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1003884291}
@@ -761,7 +761,7 @@ GameObject:
   - component: {fileID: 1363216539}
   - component: {fileID: 1363216543}
   - component: {fileID: 1363216544}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Player
   m_TagString: Player
   m_Icon: {fileID: 0}
@@ -950,7 +950,7 @@ GameObject:
   - component: {fileID: 1487800976}
   - component: {fileID: 1487800975}
   - component: {fileID: 1487800974}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: Borders (2)
   m_TagString: Border
   m_Icon: {fileID: 0}
@@ -964,7 +964,7 @@ BoxCollider2D:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1487800973}
-  m_Enabled: 1
+  m_Enabled: 0
   m_Density: 1
   m_Material: {fileID: 0}
   m_IncludeLayers:
@@ -1063,8 +1063,8 @@ Transform:
   m_GameObject: {fileID: 1487800973}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: 0.7071068, w: 0.7071068}
-  m_LocalPosition: {x: 5.2687736, y: -1.3939234, z: -0.05939071}
-  m_LocalScale: {x: 9.67135, y: 1, z: 1}
+  m_LocalPosition: {x: 8.0072, y: -1.39, z: -0.05939071}
+  m_LocalScale: {x: 9.67135, y: 4.7853036, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1003884291}
@@ -1080,7 +1080,7 @@ GameObject:
   - component: {fileID: 1766358428}
   - component: {fileID: 1766358427}
   - component: {fileID: 1766358426}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: Borders (3)
   m_TagString: Border
   m_Icon: {fileID: 0}
@@ -1094,7 +1094,7 @@ BoxCollider2D:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1766358425}
-  m_Enabled: 1
+  m_Enabled: 0
   m_Density: 1
   m_Material: {fileID: 0}
   m_IncludeLayers:
@@ -1208,7 +1208,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1894749832}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: FiringPoint
   m_TagString: Untagged
   m_Icon: {fileID: -5442936267250999957, guid: 0000000000000000d000000000000000, type: 0}
@@ -1309,7 +1309,7 @@ GameObject:
   - component: {fileID: 2039713610}
   - component: {fileID: 2039713609}
   - component: {fileID: 2039713608}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: Borders
   m_TagString: Border
   m_Icon: {fileID: 0}
@@ -1323,7 +1323,7 @@ BoxCollider2D:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2039713607}
-  m_Enabled: 1
+  m_Enabled: 0
   m_Density: 1
   m_Material: {fileID: 0}
   m_IncludeLayers:
