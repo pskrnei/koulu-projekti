@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class PlayerMovement : MonoBehaviour {
 
-    public float maxSpeed = 25f;
+    public float maxSpeed = 10f;
     public float rotSpeed = 1000f;
     //Vector3 previousMousePosition;
 
