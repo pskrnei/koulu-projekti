@@ -64,8 +64,13 @@
     <Compile Include="Assets\Scripts\PlayerScripts\Bullet.cs" />
     <Compile Include="Assets\Scripts\PlayerScripts\TopDownMovement.cs" />
     <Compile Include="Assets\Scripts\PlayerScripts\playerHealth.cs" />
+    <Compile Include="Assets\Scripts\EnemyScripts\ShootingEnemy.cs" />
+    <Compile Include="Assets\Scripts\PlayerScripts\PlayerMovement.cs" />
     <Compile Include="Assets\Scripts\PlayerScripts\Player.cs" />
-    <Compile Include="Assets\EnemyShooting.cs" />
+    <Compile Include="Assets\Scripts\PlayerScripts\DamageToEnemies.cs" />
+    <Compile Include="Assets\Scripts\PlayerScripts\Rajat.cs" />
+    <Compile Include="Assets\Scripts\EnemyScripts\Enemy.cs" />
+    <Compile Include="Assets\Scripts\EnemyScripts\enemyHealth.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">

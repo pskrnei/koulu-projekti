@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class Player : MonoBehaviour
 {
-    [SerializeField] private float speed = 5f;
+    [SerializeField] private float speed = 10f;
 
     //Bullet variables
     [SerializeField] private GameObject bulletPrefab;
@@ -17,7 +17,7 @@ public class Player : MonoBehaviour
     private float my;
 
     //
-    //private Vector2 mousePos;
+    private Vector2 mousePos;
     //
 
     private float fireTimer;
@@ -34,14 +34,12 @@ public class Player : MonoBehaviour
     {
         mx = Input.GetAxisRaw("Horizontal");
         my = Input.GetAxisRaw("Vertical");
-
         //Pyöriminen
-        //mousePos = Camera.main.ScreenToViewportPoint(Input.mousePosition);
+        mousePos = Camera.main.ScreenToViewportPoint(Input.mousePosition);
+                
+        float angle = Mathf.Atan2(mousePos.y - transform.position.y, mousePos.x - transform.position.x) * Mathf.Rad2Deg - 90f;
 
-        
-        //float angle = Mathf.Atan2(mousePos.y - transform.position.y, mousePos.x - transform.position.x) * Mathf.Rad2Deg - 90f;
-
-        //transform.localRotation = Quaternion.Euler(0, 0, angle);
+        transform.localRotation = Quaternion.Euler(0, 0, angle);
         //-
 
         if (Input.GetMouseButton(0) && fireTimer <= 0f)
