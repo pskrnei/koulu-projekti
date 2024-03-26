@@ -29,6 +29,7 @@ public class playerHealth : MonoBehaviour
             isDead = true;
             gameManager.gameOver();
             Destroy(gameObject);
+            
         }
     }
 }

@@ -60,12 +60,12 @@
     <Analyzer Include="C:\Program Files\Unity\Hub\Editor\2022.3.22f1\Editor\Data\Tools\Unity.SourceGenerators\Unity.Properties.SourceGenerator.dll" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\Scripts\GameManagerScript.cs" />
     <Compile Include="Assets\Scripts\EnemyScripts\Damage.cs" />
     <Compile Include="Assets\Scripts\PlayerScripts\Bullet.cs" />
     <Compile Include="Assets\Scripts\PlayerScripts\TopDownMovement.cs" />
     <Compile Include="Assets\Scripts\PlayerScripts\playerHealth.cs" />
     <Compile Include="Assets\Scripts\PlayerScripts\PlayerMovement.cs" />
-    <Compile Include="Assets\GameManagerScript.cs" />
     <Compile Include="Assets\Scripts\PlayerScripts\Player.cs" />
     <Compile Include="Assets\Scripts\PlayerScripts\Rajat.cs" />
     <Compile Include="Assets\EnemyShooting.cs" />
