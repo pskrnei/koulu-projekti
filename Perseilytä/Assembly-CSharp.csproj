@@ -71,6 +71,7 @@
     <Compile Include="Assets\Scripts\PlayerScripts\Rajat.cs" />
     <Compile Include="Assets\Scripts\EnemyScripts\Enemy.cs" />
     <Compile Include="Assets\Scripts\EnemyScripts\enemyHealth.cs" />
+    <Compile Include="Assets\Scripts\GameScripts\GameManagerScript.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
