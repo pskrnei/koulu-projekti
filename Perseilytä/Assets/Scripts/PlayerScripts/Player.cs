@@ -32,7 +32,7 @@ public class Player : MonoBehaviour
     // Update is called once per frame
      private void Update()
     {
-        mx = Input.GetAxisRaw("Horizontal");
+      /*  mx = Input.GetAxisRaw("Horizontal");
         my = Input.GetAxisRaw("Vertical");
         //Pyöriminen
         mousePos = Camera.main.ScreenToViewportPoint(Input.mousePosition);
@@ -41,7 +41,7 @@ public class Player : MonoBehaviour
 
         transform.localRotation = Quaternion.Euler(0, 0, angle);
         //-
-
+      */
         if (Input.GetMouseButton(0) && fireTimer <= 0f)
         {
             Shoot();
