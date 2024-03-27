@@ -6,18 +6,11 @@ using UnityEngine.SceneManagement;
 public class GameManagerScript : MonoBehaviour
 {
     public GameObject gameOverUi;
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
 
-    // Update is called once per frame
-    void Update()
+    public void playGame()
     {
-        
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);//vaihtaa seuraavaa sceneen
     }
-
 
     public void gameOver()
     {
@@ -35,7 +28,7 @@ public class GameManagerScript : MonoBehaviour
        // Debug.Log("main menu");
     }
 
-    public void OnApplicationQuit()
+    public void quitGame()
     {
         Application.Quit();
        // Debug.Log("Quit");
