@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 6199121295388229499}
   - component: {fileID: 4528064710508766048}
   m_Layer: 0
-  m_Name: EnemySpawner
+  m_Name: Spawner
   m_TagString: Untagged
   m_Icon: {fileID: -5397416234189338067, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
@@ -41,11 +41,11 @@ MonoBehaviour:
   m_GameObject: {fileID: 7751772000464148551}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 40b11e64eabf5be42b75e9c6a8ff3621, type: 3}
+  m_Script: {fileID: 11500000, guid: 015961d3b08161247b599acf9e0a2bee, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  spawnRate: 1
+  spawnRate: 2
   enemyPrefabs:
   - {fileID: 8566393518702308380, guid: f0717de5f5df52040ac8223fd12e268f, type: 3}
-  - {fileID: 1591787518582106218, guid: c8d8b7f19be9a014897dbab1bad77f7a, type: 3}
+  - {fileID: 952904827921241499, guid: 432b85d6f610fea45bf45edb6cd6292a, type: 3}
   canSpawn: 1

@@ -83,7 +83,17 @@ public class ShootingEnemy : MonoBehaviour
 
     private void GetTarget()
     {
-        target = GameObject.FindGameObjectWithTag("Player").transform;
+        GameObject playerObject = GameObject.FindGameObjectWithTag("Player");
+
+        if (playerObject != null)
+        {
+            target = playerObject.transform;
+        }
+        else
+        {
+            // Pelaajaa ei löytynyt, joten tuhotaan tämä vihollis-GameObject
+            Destroy(gameObject);
+        }
     }
 
     private void OnCollisionEnter2D(Collision2D other)

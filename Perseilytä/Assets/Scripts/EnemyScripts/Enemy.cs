@@ -1,6 +1,8 @@
 using System.Collections;
 using System.Collections.Generic;
+using Unity.VisualScripting;
 using UnityEngine;
+using static UnityEngine.GraphicsBuffer;
 
 public class Enemy : MonoBehaviour
 {
@@ -8,6 +10,7 @@ public class Enemy : MonoBehaviour
     public float speed = 3f;
     public float rotateSpeed = 0.0025f;
     private Rigidbody2D rb;
+
 
     private void Start()
     {
@@ -17,14 +20,17 @@ public class Enemy : MonoBehaviour
     // Enemy rotates
     private void Update()
     {
-        if (!target)
-        {
-            GetTarget();
-        }
-        else
-        {
-            RotateTowardsTarget();
-        }        
+
+            if (!target)
+            {
+                GetTarget();
+            }
+            else
+            {
+                RotateTowardsTarget();
+            }
+        
+
     }
 
     private void FixedUpdate()
@@ -42,7 +48,17 @@ public class Enemy : MonoBehaviour
 
     private void GetTarget()
     {
-        target = GameObject.FindGameObjectWithTag("Player").transform;
+        GameObject playerObject = GameObject.FindGameObjectWithTag("Player");
+
+        if (playerObject != null)
+        {
+            target = playerObject.transform;
+        }
+        else
+        {
+            // Pelaajaa ei löytynyt, joten tuhotaan tämä vihollis-GameObject
+            Destroy(gameObject);
+        }
     }
 
     private void OnCollisionEnter2D(Collision2D other)
