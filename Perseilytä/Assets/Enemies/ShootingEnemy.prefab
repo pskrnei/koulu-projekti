@@ -14,8 +14,8 @@ GameObject:
   - component: {fileID: 1603412897350736463}
   - component: {fileID: 5835163113938712498}
   - component: {fileID: 3579984112409772109}
-  - component: {fileID: 3173455835140454800}
   - component: {fileID: 8593155577188764597}
+  - component: {fileID: 6006246316252245292}
   m_Layer: 0
   m_Name: ShootingEnemy
   m_TagString: Enemy
@@ -189,21 +189,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0d52ab8a38c98e4438653b63a1475f49, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!114 &3173455835140454800
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1591787518582106218}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b882989f105d18a4f93f3816b5d7ce6c, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  health: 30
-  maxHealth: 0
-  healthBar: {fileID: 0}
 --- !u!114 &8593155577188764597
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -226,6 +211,20 @@ MonoBehaviour:
   distanceToStop: 3
   fireRate: 0.5
   firingPoint: {fileID: 4757322626900185391}
+--- !u!114 &6006246316252245292
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1591787518582106218}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 30a264481c7aff440a3c85ddfefbe4d4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  health: 10
+  maxHealth: 10
 --- !u!1 &8178408764661096374
 GameObject:
   m_ObjectHideFlags: 0
