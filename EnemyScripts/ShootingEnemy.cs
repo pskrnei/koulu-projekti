@@ -10,10 +10,11 @@ public class ShootingEnemy : MonoBehaviour
     private Rigidbody2D rb;
     public GameObject bulletPrefab;
 
-    public playerHealth pHealth;
-    public float damage;
 
-    public float distanceToShoot = 5f;
+    public playerHealth pHealth;
+    //public float damage;
+
+    public float distanceToShoot = 20f;
     public float distanceToStop = 3f;
 
     public float fireRate;
@@ -83,16 +84,17 @@ public class ShootingEnemy : MonoBehaviour
 
     private void GetTarget()
     {
-        GameObject playerObject = GameObject.FindGameObjectWithTag("Player");
+        target = GameObject.FindGameObjectWithTag("Player").transform;
+    }
 
-        if (playerObject != null)
+    /*Fuck you
+     * private void OnCollisionEnter2D(Collision2D other)
+    {
+        if(other.gameObject.CompareTag("Bullet"))
         {
-            target = playerObject.transform;
-        }
-        else
-        {
-            // Pelaajaa ei löytynyt, joten tuhotaan tämä vihollis-GameObject
+            Destroy(other.gameObject);
             Destroy(gameObject);
         }
-    }
+
+    }*/
 }

@@ -1,45 +1,30 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "D:\\GitHub\\koulu-projekti\\Perseilyt\u00E4\\",
+  "WorkspaceRootPath": "C:\\Users\\AlexandraFalc\u00F3nSepp\u00E4\\Documents\\GitHub\\koulu-projekti\\Perseilyt\u00E4\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{509D93C8-DFAA-9411-6B2B-28F08D40170B}|Assembly-CSharp.csproj|d:\\github\\koulu-projekti\\perseilyt\u00E4\\assets\\scripts\\playerscripts\\camerafollow.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{509D93C8-DFAA-9411-6B2B-28F08D40170B}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\playerscripts\\camerafollow.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{509D93C8-DFAA-9411-6B2B-28F08D40170B}|Assembly-CSharp.csproj|d:\\github\\koulu-projekti\\perseilyt\u00E4\\assets\\scripts\\playerscripts\\playermovement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{509D93C8-DFAA-9411-6B2B-28F08D40170B}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\playerscripts\\playermovement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{509D93C8-DFAA-9411-6B2B-28F08D40170B}|Assembly-CSharp.csproj|d:\\github\\koulu-projekti\\perseilyt\u00E4\\assets\\scripts\\enemyscripts\\enemyhealth.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{509D93C8-DFAA-9411-6B2B-28F08D40170B}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\enemyscripts\\enemyhealth.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{509D93C8-DFAA-9411-6B2B-28F08D40170B}|Assembly-CSharp.csproj|D:\\GitHub\\koulu-projekti\\Perseilyt\u00E4\\assets\\scripts\\playerscripts\\player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{509D93C8-DFAA-9411-6B2B-28F08D40170B}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\playerscripts\\player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{509D93C8-DFAA-9411-6B2B-28F08D40170B}|Assembly-CSharp.csproj|D:\\GitHub\\koulu-projekti\\Perseilyt\u00E4\\assets\\scripts\\playerscripts\\playerhealth.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{509D93C8-DFAA-9411-6B2B-28F08D40170B}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\playerscripts\\playerhealth.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{509D93C8-DFAA-9411-6B2B-28F08D40170B}|Assembly-CSharp.csproj|D:\\GitHub\\koulu-projekti\\Perseilyt\u00E4\\assets\\scripts\\enemyscripts\\enemy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{509D93C8-DFAA-9411-6B2B-28F08D40170B}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\enemyscripts\\enemy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{509D93C8-DFAA-9411-6B2B-28F08D40170B}|Assembly-CSharp.csproj|D:\\GitHub\\koulu-projekti\\Perseilyt\u00E4\\assets\\scripts\\enemyscripts\\shootingenemy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{509D93C8-DFAA-9411-6B2B-28F08D40170B}|Assembly-CSharp.csproj|c:\\users\\alexandrafalc\u00F3nsepp\u00E4\\documents\\github\\koulu-projekti\\perseilyt\u00E4\\assets\\scripts\\enemyscripts\\shootingenemy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{509D93C8-DFAA-9411-6B2B-28F08D40170B}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\enemyscripts\\shootingenemy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{509D93C8-DFAA-9411-6B2B-28F08D40170B}|Assembly-CSharp.csproj|D:\\GitHub\\koulu-projekti\\Perseilyt\u00E4\\assets\\scripts\\enemyscripts\\damage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{509D93C8-DFAA-9411-6B2B-28F08D40170B}|Assembly-CSharp.csproj|C:\\Users\\AlexandraFalc\u00F3nSepp\u00E4\\Documents\\GitHub\\koulu-projekti\\Perseilyt\u00E4\\assets\\scripts\\enemyscripts\\enemy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{509D93C8-DFAA-9411-6B2B-28F08D40170B}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\enemyscripts\\enemy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{509D93C8-DFAA-9411-6B2B-28F08D40170B}|Assembly-CSharp.csproj|c:\\users\\alexandrafalc\u00F3nsepp\u00E4\\documents\\github\\koulu-projekti\\perseilyt\u00E4\\assets\\scripts\\enemyscripts\\enemyhealth_2.0.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{509D93C8-DFAA-9411-6B2B-28F08D40170B}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\enemyscripts\\enemyhealth_2.0.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{509D93C8-DFAA-9411-6B2B-28F08D40170B}|Assembly-CSharp.csproj|c:\\users\\alexandrafalc\u00F3nsepp\u00E4\\documents\\github\\koulu-projekti\\perseilyt\u00E4\\assets\\scripts\\playerscripts\\bullet_2.0.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{509D93C8-DFAA-9411-6B2B-28F08D40170B}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\playerscripts\\bullet_2.0.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|c:\\users\\alexandrafalc\u00F3nsepp\u00E4\\documents\\github\\koulu-projekti\\perseilyt\u00E4\\assets\\scripts\\playerscripts\\bullet.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:assets\\scripts\\playerscripts\\bullet.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{509D93C8-DFAA-9411-6B2B-28F08D40170B}|Assembly-CSharp.csproj|C:\\Users\\AlexandraFalc\u00F3nSepp\u00E4\\Documents\\GitHub\\koulu-projekti\\Perseilyt\u00E4\\assets\\scripts\\enemyscripts\\damage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{509D93C8-DFAA-9411-6B2B-28F08D40170B}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\enemyscripts\\damage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{509D93C8-DFAA-9411-6B2B-28F08D40170B}|Assembly-CSharp.csproj|D:\\GitHub\\koulu-projekti\\Perseilyt\u00E4\\assets\\scripts\\playerscripts\\damagetoenemies.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{509D93C8-DFAA-9411-6B2B-28F08D40170B}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\playerscripts\\damagetoenemies.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Omistaja\\Documents\\GitHub\\koulu-projekti\\Perseilyt\u00E4\\assets\\enemyhealth.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -49,112 +34,67 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "PlayerMovement.cs",
-              "DocumentMoniker": "D:\\GitHub\\koulu-projekti\\Perseilyt\u00E4\\Assets\\Scripts\\PlayerScripts\\PlayerMovement.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\PlayerScripts\\PlayerMovement.cs",
-              "ToolTip": "D:\\GitHub\\koulu-projekti\\Perseilyt\u00E4\\Assets\\Scripts\\PlayerScripts\\PlayerMovement.cs",
-              "RelativeToolTip": "Assets\\Scripts\\PlayerScripts\\PlayerMovement.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAADAAAAA2AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-28T10:09:25.741Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "CameraFollow.cs",
-              "DocumentMoniker": "D:\\GitHub\\koulu-projekti\\Perseilyt\u00E4\\Assets\\Scripts\\PlayerScripts\\CameraFollow.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\PlayerScripts\\CameraFollow.cs",
-              "ToolTip": "D:\\GitHub\\koulu-projekti\\Perseilyt\u00E4\\Assets\\Scripts\\PlayerScripts\\CameraFollow.cs",
-              "RelativeToolTip": "Assets\\Scripts\\PlayerScripts\\CameraFollow.cs",
-              "ViewState": "AQIAACcAAAAAAAAAAAAAAAEAAAAZAAAA",
+              "Title": "ShootingEnemy.cs",
+              "DocumentMoniker": "C:\\Users\\AlexandraFalc\u00F3nSepp\u00E4\\Documents\\GitHub\\koulu-projekti\\Perseilyt\u00E4\\Assets\\Scripts\\EnemyScripts\\ShootingEnemy.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\EnemyScripts\\ShootingEnemy.cs",
+              "ToolTip": "C:\\Users\\AlexandraFalc\u00F3nSepp\u00E4\\Documents\\GitHub\\koulu-projekti\\Perseilyt\u00E4\\Assets\\Scripts\\EnemyScripts\\ShootingEnemy.cs",
+              "RelativeToolTip": "Assets\\Scripts\\EnemyScripts\\ShootingEnemy.cs",
+              "ViewState": "AQIAADsAAAAAAAAAAAAgwGAAAAAFAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-28T09:13:04.124Z",
+              "WhenOpened": "2024-04-09T06:12:08.607Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "enemyHealth.cs",
-              "DocumentMoniker": "D:\\GitHub\\koulu-projekti\\Perseilyt\u00E4\\Assets\\Scripts\\EnemyScripts\\enemyHealth.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\EnemyScripts\\enemyHealth.cs",
-              "ToolTip": "D:\\GitHub\\koulu-projekti\\Perseilyt\u00E4\\Assets\\Scripts\\EnemyScripts\\enemyHealth.cs",
-              "RelativeToolTip": "Assets\\Scripts\\EnemyScripts\\enemyHealth.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Title": "enemyHealth_2.0.cs",
+              "DocumentMoniker": "C:\\Users\\AlexandraFalc\u00F3nSepp\u00E4\\Documents\\GitHub\\koulu-projekti\\Perseilyt\u00E4\\Assets\\Scripts\\EnemyScripts\\enemyHealth_2.0.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\EnemyScripts\\enemyHealth_2.0.cs",
+              "ToolTip": "C:\\Users\\AlexandraFalc\u00F3nSepp\u00E4\\Documents\\GitHub\\koulu-projekti\\Perseilyt\u00E4\\Assets\\Scripts\\EnemyScripts\\enemyHealth_2.0.cs",
+              "RelativeToolTip": "Assets\\Scripts\\EnemyScripts\\enemyHealth_2.0.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-27T14:02:46.149Z",
+              "WhenOpened": "2024-04-09T06:08:41.803Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "ShootingEnemy.cs",
-              "DocumentMoniker": "D:\\GitHub\\koulu-projekti\\Perseilyt\u00E4\\Assets\\Scripts\\EnemyScripts\\ShootingEnemy.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\EnemyScripts\\ShootingEnemy.cs",
-              "ToolTip": "D:\\GitHub\\koulu-projekti\\Perseilyt\u00E4\\Assets\\Scripts\\EnemyScripts\\ShootingEnemy.cs",
-              "RelativeToolTip": "Assets\\Scripts\\EnemyScripts\\ShootingEnemy.cs",
-              "ViewState": "AQIAADUAAAAAAAAAAAAwwFoAAAAIAAAA",
+              "DocumentIndex": 3,
+              "Title": "Bullet_2.0.cs",
+              "DocumentMoniker": "C:\\Users\\AlexandraFalc\u00F3nSepp\u00E4\\Documents\\GitHub\\koulu-projekti\\Perseilyt\u00E4\\Assets\\Scripts\\PlayerScripts\\Bullet_2.0.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\PlayerScripts\\Bullet_2.0.cs",
+              "ToolTip": "C:\\Users\\AlexandraFalc\u00F3nSepp\u00E4\\Documents\\GitHub\\koulu-projekti\\Perseilyt\u00E4\\Assets\\Scripts\\PlayerScripts\\Bullet_2.0.cs",
+              "RelativeToolTip": "Assets\\Scripts\\PlayerScripts\\Bullet_2.0.cs",
+              "ViewState": "AQIAAAUAAAAAAAAAAAAAwAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-25T15:29:54.688Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "enemyHealth.cs",
-              "DocumentMoniker": "C:\\Users\\Omistaja\\Documents\\GitHub\\koulu-projekti\\Perseilyt\u00E4\\Assets\\enemyHealth.cs",
-              "ToolTip": "C:\\Users\\Omistaja\\Documents\\GitHub\\koulu-projekti\\Perseilyt\u00E4\\Assets\\enemyHealth.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAAVAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-25T13:55:31.799Z"
+              "WhenOpened": "2024-04-09T06:03:34.52Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
-              "Title": "playerHealth.cs",
-              "DocumentMoniker": "D:\\GitHub\\koulu-projekti\\Perseilyt\u00E4\\Assets\\Scripts\\PlayerScripts\\playerHealth.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\PlayerScripts\\playerHealth.cs",
-              "ToolTip": "D:\\GitHub\\koulu-projekti\\Perseilyt\u00E4\\Assets\\Scripts\\PlayerScripts\\playerHealth.cs",
-              "RelativeToolTip": "Assets\\Scripts\\PlayerScripts\\playerHealth.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAAAAAAA",
+              "Title": "Bullet.cs",
+              "DocumentMoniker": "C:\\Users\\AlexandraFalc\u00F3nSepp\u00E4\\Documents\\GitHub\\koulu-projekti\\Perseilyt\u00E4\\Assets\\Scripts\\PlayerScripts\\Bullet.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\PlayerScripts\\Bullet.cs",
+              "ToolTip": "C:\\Users\\AlexandraFalc\u00F3nSepp\u00E4\\Documents\\GitHub\\koulu-projekti\\Perseilyt\u00E4\\Assets\\Scripts\\PlayerScripts\\Bullet.cs",
+              "RelativeToolTip": "Assets\\Scripts\\PlayerScripts\\Bullet.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-25T13:55:01.471Z"
+              "WhenOpened": "2024-04-09T05:55:50.638Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Player.cs",
-              "DocumentMoniker": "D:\\GitHub\\koulu-projekti\\Perseilyt\u00E4\\Assets\\Scripts\\PlayerScripts\\Player.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\PlayerScripts\\Player.cs",
-              "ToolTip": "D:\\GitHub\\koulu-projekti\\Perseilyt\u00E4\\Assets\\Scripts\\PlayerScripts\\Player.cs",
-              "RelativeToolTip": "Assets\\Scripts\\PlayerScripts\\Player.cs",
-              "ViewState": "AQIAABoAAAAAAAAAAAAxwCsAAAAIAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-25T13:54:52.87Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "DamageToEnemies.cs",
-              "DocumentMoniker": "D:\\GitHub\\koulu-projekti\\Perseilyt\u00E4\\Assets\\Scripts\\PlayerScripts\\DamageToEnemies.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\PlayerScripts\\DamageToEnemies.cs",
-              "ToolTip": "D:\\GitHub\\koulu-projekti\\Perseilyt\u00E4\\Assets\\Scripts\\PlayerScripts\\DamageToEnemies.cs",
-              "RelativeToolTip": "Assets\\Scripts\\PlayerScripts\\DamageToEnemies.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAB4AAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-25T13:52:35.824Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 5,
               "Title": "Damage.cs",
-              "DocumentMoniker": "D:\\GitHub\\koulu-projekti\\Perseilyt\u00E4\\Assets\\Scripts\\EnemyScripts\\Damage.cs",
+              "DocumentMoniker": "C:\\Users\\AlexandraFalc\u00F3nSepp\u00E4\\Documents\\GitHub\\koulu-projekti\\Perseilyt\u00E4\\Assets\\Scripts\\EnemyScripts\\Damage.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\EnemyScripts\\Damage.cs",
-              "ToolTip": "D:\\GitHub\\koulu-projekti\\Perseilyt\u00E4\\Assets\\Scripts\\EnemyScripts\\Damage.cs",
+              "ToolTip": "C:\\Users\\AlexandraFalc\u00F3nSepp\u00E4\\Documents\\GitHub\\koulu-projekti\\Perseilyt\u00E4\\Assets\\Scripts\\EnemyScripts\\Damage.cs",
               "RelativeToolTip": "Assets\\Scripts\\EnemyScripts\\Damage.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABUAAAAEAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -162,15 +102,16 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 1,
               "Title": "Enemy.cs",
-              "DocumentMoniker": "D:\\GitHub\\koulu-projekti\\Perseilyt\u00E4\\Assets\\Scripts\\EnemyScripts\\Enemy.cs",
+              "DocumentMoniker": "C:\\Users\\AlexandraFalc\u00F3nSepp\u00E4\\Documents\\GitHub\\koulu-projekti\\Perseilyt\u00E4\\Assets\\Scripts\\EnemyScripts\\Enemy.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\EnemyScripts\\Enemy.cs",
-              "ToolTip": "D:\\GitHub\\koulu-projekti\\Perseilyt\u00E4\\Assets\\Scripts\\EnemyScripts\\Enemy.cs",
+              "ToolTip": "C:\\Users\\AlexandraFalc\u00F3nSepp\u00E4\\Documents\\GitHub\\koulu-projekti\\Perseilyt\u00E4\\Assets\\Scripts\\EnemyScripts\\Enemy.cs",
               "RelativeToolTip": "Assets\\Scripts\\EnemyScripts\\Enemy.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAADEAAAAIAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAD0AAAAFAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-25T13:04:33.605Z"
+              "WhenOpened": "2024-03-25T13:04:33.605Z",
+              "EditorCaption": ""
             }
           ]
         }

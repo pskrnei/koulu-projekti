@@ -1,8 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
-using Unity.VisualScripting;
 using UnityEngine;
-using static UnityEngine.GraphicsBuffer;
 
 public class Enemy : MonoBehaviour
 {
@@ -20,16 +18,14 @@ public class Enemy : MonoBehaviour
     // Enemy rotates
     private void Update()
     {
-
-            if (!target)
-            {
-                GetTarget();
-            }
-            else
-            {
-                RotateTowardsTarget();
-            }
-        
+        if (!target)
+        {
+            GetTarget();
+        }
+        else
+        {
+            RotateTowardsTarget();
+        }
 
     }
 
@@ -48,16 +44,8 @@ public class Enemy : MonoBehaviour
 
     private void GetTarget()
     {
-        GameObject playerObject = GameObject.FindGameObjectWithTag("Player");
-
-        if (playerObject != null)
-        {
-            target = playerObject.transform;
-        }
-        else
-        {
-            // Pelaajaa ei löytynyt, joten tuhotaan tämä vihollis-GameObject
-            Destroy(gameObject);
-        }
+        target = GameObject.FindGameObjectWithTag("Player").transform;
     }
+
+
 }

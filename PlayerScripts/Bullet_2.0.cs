@@ -4,6 +4,8 @@ using UnityEngine;
 
 public class Bullet : MonoBehaviour
 {
+    public EnemyHealth pHealth;
+    public float damage = 1f;
 
     [Range(1, 10)]
     [SerializeField] private float speed = 10f;
@@ -16,7 +18,6 @@ public class Bullet : MonoBehaviour
     private void Start()
     {
         rb = GetComponent<Rigidbody2D>();
-        Destroy(gameObject, lifeTime);
     }
 
     private void FixedUpdate()
@@ -24,5 +25,16 @@ public class Bullet : MonoBehaviour
         rb.velocity = transform.up * speed;
     }
 
+    private void OnCollisionEnter2D(Collision2D other)
+    {
+        if (other.gameObject.CompareTag("Enemy"))
+        {
+            other.gameObject.GetComponent<EnemyHealth>().health -= damage;
+        }
+
+        // Destroy the bullet regardless of what it collided with
+        Destroy(gameObject);
+
+    }
 
 }
