@@ -16,7 +16,7 @@ public class playerHealth : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        maxHealth = health;
+        health = maxHealth;
     }
 
     // Update is called once per frame
@@ -28,8 +28,8 @@ public class playerHealth : MonoBehaviour
         {
             isDead = true;
             gameManager.gameOver();
-            Destroy(gameObject);
-            
+            GameObject.FindWithTag("Player");
+
         }
     }
 }
