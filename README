@@ -1,1 +1,5 @@
 Testi ja aloitus tälle projektille.
+
+- Tutustu OnCollisionStay/Exit.
+  - Jotta Bullet tuhoutuis kun se menee Camera follown Colliderin ulkopuolelle.
+    - Meneekö Bullet_2.0 vai CamreFollow scriptiin?
