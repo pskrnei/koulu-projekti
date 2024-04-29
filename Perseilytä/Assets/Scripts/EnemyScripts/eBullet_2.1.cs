@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Bullet_ : MonoBehaviour
+public class Bullet : MonoBehaviour
 {
     public EnemyHealth pHealth;
     public float damage = 1f;

@@ -142,7 +142,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1591787518582106218}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 0628413c4f5b9ba4f9edcaef6180e5cc, type: 3}
   m_Name: 
@@ -190,7 +190,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   target: {fileID: 0}
   speed: 3
-  rotateSpeed: 0.0025
+  rotateSpeed: 0.025
   bulletPrefab: {fileID: 1813531732695697806, guid: 0797a57df9d80534ab394992fd183628, type: 3}
   pHealth: {fileID: 0}
   damage: 0

@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Bullet_ : MonoBehaviour
+public class eBullet_ : MonoBehaviour
 {
     public EnemyHealth pHealth;
     public float damage = 1f;
@@ -33,9 +33,9 @@ public class Bullet_ : MonoBehaviour
 
     private void OnCollisionEnter2D(Collision2D other)
     {
-        if (other.gameObject.CompareTag("Enemy"))
+        if (other.gameObject.CompareTag("Player"))
         {
-            other.gameObject.GetComponent<EnemyHealth>().health -= damage;
+            other.gameObject.GetComponent<playerHealth>().health -= damage;
         }
 
         //Destroy(gameObject);
