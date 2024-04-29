@@ -6,6 +6,7 @@ using UnityEngine.SceneManagement;
 public class GameManagerScript : MonoBehaviour
 {
     public GameObject gameOverUi;
+    
 
     public void playGame()
     {
@@ -33,10 +34,6 @@ public class GameManagerScript : MonoBehaviour
         Application.Quit();
        // Debug.Log("Quit");
     }
-
-
-
-
 
 
 }

@@ -72,6 +72,7 @@
     <Compile Include="Assets\Scripts\EnemyScripts\Bullet_2.1.cs" />
     <Compile Include="Assets\Scripts\PlayerScripts\DamageToEnemies.cs" />
     <Compile Include="Assets\Scripts\EnemyScripts\Enemy.cs" />
+    <Compile Include="Assets\Scripts\GameScripts\PauseMenuScript.cs" />
     <Compile Include="Assets\Scripts\PlayerScripts\Bullet_2.0.cs" />
     <Compile Include="Assets\Scripts\EnemyScripts\enemyHealth_2.0.cs" />
     <Compile Include="Assets\Scripts\EnemyScripts\ESpawner 1.cs" />
