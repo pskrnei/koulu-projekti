@@ -4,14 +4,5 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes:
-  - enabled: 1
-    path: Assets/Scenes/MainMenu.unity
-    guid: b7c525abdd9878246a19f3ac7712c0df
-  - enabled: 1
-    path: Assets/Scenes/CameraFollow.unity
-    guid: e3bdcd8fdd30fb04f953939798eb5155
-  - enabled: 0
-    path: Assets/Scenes/Harjoittelu.unity
-    guid: 4025991e79d8d5c45afe0815731b7b44
+  m_Scenes: []
   m_configObjects: {}

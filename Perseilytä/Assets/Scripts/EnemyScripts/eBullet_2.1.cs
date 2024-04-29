@@ -2,13 +2,13 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Bullet_ : MonoBehaviour
+public class Bullet : MonoBehaviour
 {
     public EnemyHealth pHealth;
     public float damage = 1f;
 
     [Range(1, 10)]
-    [SerializeField] private float speed = 20f;
+    [SerializeField] private float speed = 10f;
 
     [Range(1, 10)]
     [SerializeField] private float lifeTime = 0.5f;
@@ -20,7 +20,10 @@ public class Bullet_ : MonoBehaviour
     private void Start()
     {
         rb = GetComponent<Rigidbody2D>();
-        Destroy(gameObject, lifeTime);
+        /*foreach (Collider2D collider in GetComponents<Collider2D>())
+        {
+            Physics2D.IgnoreLayerCollision(gameObject.layer, ignoreLayer, true);
+        }*/
     }
 
     private void FixedUpdate()
@@ -35,7 +38,7 @@ public class Bullet_ : MonoBehaviour
             other.gameObject.GetComponent<EnemyHealth>().health -= damage;
         }
 
-        
+        //Destroy(gameObject);
 
     }
 
