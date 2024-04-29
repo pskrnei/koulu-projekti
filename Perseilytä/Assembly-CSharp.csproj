@@ -71,6 +71,7 @@
     <Compile Include="Assets\Scripts\PlayerScripts\Player.cs" />
     <Compile Include="Assets\Scripts\EnemyScripts\Bullet_2.1.cs" />
     <Compile Include="Assets\Scripts\PlayerScripts\DamageToEnemies.cs" />
+    <Compile Include="Assets\Scripts\PlayerScripts\StatusBarHealth.cs" />
     <Compile Include="Assets\Scripts\EnemyScripts\Enemy.cs" />
     <Compile Include="Assets\Scripts\GameScripts\PauseMenuScript.cs" />
     <Compile Include="Assets\Scripts\PlayerScripts\Bullet_2.0.cs" />

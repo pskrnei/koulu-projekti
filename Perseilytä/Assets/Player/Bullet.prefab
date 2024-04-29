@@ -164,7 +164,4 @@ MonoBehaviour:
   pHealth: {fileID: 0}
   damage: 1
   speed: 10
-  lifeTime: 1
-  ignoreLayer:
-    serializedVersion: 2
-    m_Bits: 512
+  lifeTime: 2

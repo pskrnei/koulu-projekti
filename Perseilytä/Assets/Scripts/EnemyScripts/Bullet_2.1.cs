@@ -20,10 +20,7 @@ public class eBullet_ : MonoBehaviour
     private void Start()
     {
         rb = GetComponent<Rigidbody2D>();
-        /*foreach (Collider2D collider in GetComponents<Collider2D>())
-        {
-            Physics2D.IgnoreLayerCollision(gameObject.layer, ignoreLayer, true);
-        }*/
+        Destroy(gameObject, lifeTime);
     }
 
     private void FixedUpdate()
@@ -38,7 +35,6 @@ public class eBullet_ : MonoBehaviour
             other.gameObject.GetComponent<playerHealth>().health -= damage;
         }
 
-        //Destroy(gameObject);
 
     }
 
