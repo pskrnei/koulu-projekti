@@ -1264,10 +1264,11 @@ MonoBehaviour:
   m_GameObject: {fileID: 1842330521}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5079f23f43134644ba6954a4c0a6cb79, type: 3}
+  m_Script: {fileID: 11500000, guid: 7b9473e0fed46744296b6a762954a659, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  pauseMenu: {fileID: 280791700}
+  scoreText: {fileID: 280791702}
+  score: 0
 --- !u!1 &1911333201 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 7751772000464148551, guid: f1bc89117f7b4134c9d372c837952239, type: 3}
