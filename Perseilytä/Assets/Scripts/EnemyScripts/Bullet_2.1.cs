@@ -33,6 +33,7 @@ public class eBullet_ : MonoBehaviour
         if (other.gameObject.CompareTag("Player"))
         {
             other.gameObject.GetComponent<playerHealth>().health -= damage;
+            Destroy(gameObject);
         }
 
 
