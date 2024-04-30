@@ -272,12 +272,12 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_FontData:
-    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
-    m_FontSize: 14
+    m_Font: {fileID: 12800000, guid: 0feb8e8cf9efd0e43acfa1cafb05f8b7, type: 3}
+    m_FontSize: 20
     m_FontStyle: 0
     m_BestFit: 0
-    m_MinSize: 10
-    m_MaxSize: 40
+    m_MinSize: 1
+    m_MaxSize: 300
     m_Alignment: 0
     m_AlignByGeometry: 0
     m_RichText: 1
@@ -945,7 +945,7 @@ MonoBehaviour:
   health: 100
   maxHealth: 0
   healthBar: {fileID: 400126898}
-  gameManager: {fileID: 0}
+  gameManager: {fileID: 1601867782}
 --- !u!61 &1433573684
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -1583,6 +1583,30 @@ PrefabInstance:
     - target: {fileID: 5476719789399836369, guid: a19c45b08ad18f749a9df0dee63637df, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5625291618302449719, guid: a19c45b08ad18f749a9df0dee63637df, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 1601867782}
+    - target: {fileID: 5625291618302449719, guid: a19c45b08ad18f749a9df0dee63637df, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: quitGame
+      objectReference: {fileID: 0}
+    - target: {fileID: 6014531597099194514, guid: a19c45b08ad18f749a9df0dee63637df, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 1601867782}
+    - target: {fileID: 6014531597099194514, guid: a19c45b08ad18f749a9df0dee63637df, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: restart
+      objectReference: {fileID: 0}
+    - target: {fileID: 6174480213499014520, guid: a19c45b08ad18f749a9df0dee63637df, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 1601867782}
+    - target: {fileID: 6174480213499014520, guid: a19c45b08ad18f749a9df0dee63637df, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: mainMenu
       objectReference: {fileID: 0}
     - target: {fileID: 8852387329253809618, guid: a19c45b08ad18f749a9df0dee63637df, type: 3}
       propertyPath: m_LocalScale.x
