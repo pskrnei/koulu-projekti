@@ -33,6 +33,7 @@ public class Bullet_ : MonoBehaviour
         if (other.gameObject.CompareTag("Enemy"))
         {
             other.gameObject.GetComponent<EnemyHealth>().health -= damage;
+            Destroy(gameObject);
         }
 
         
