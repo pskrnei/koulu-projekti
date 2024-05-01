@@ -1,5 +1,7 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
+using Unity.Mathematics;
 using UnityEngine;
 
 public class Player : MonoBehaviour
@@ -22,26 +24,30 @@ public class Player : MonoBehaviour
 
     private float fireTimer;
 
+    //pelaajan audiot
+    public AudioSource audioSource;
+    public AudioClip shootingAudioClip;
+
 
     // Start is called before the first frame update
-     private void Start()
+    private void Start()
     {
         rb = GetComponent<Rigidbody2D>();
     }
 
     // Update is called once per frame
-     private void Update()
+    private void Update()
     {
-      /*  mx = Input.GetAxisRaw("Horizontal");
-        my = Input.GetAxisRaw("Vertical");
-        //Pyöriminen
-        mousePos = Camera.main.ScreenToViewportPoint(Input.mousePosition);
-                
-        float angle = Mathf.Atan2(mousePos.y - transform.position.y, mousePos.x - transform.position.x) * Mathf.Rad2Deg - 90f;
+        /*  mx = Input.GetAxisRaw("Horizontal");
+          my = Input.GetAxisRaw("Vertical");
+          //Pyöriminen
+          mousePos = Camera.main.ScreenToViewportPoint(Input.mousePosition);
 
-        transform.localRotation = Quaternion.Euler(0, 0, angle);
-        //-
-      */
+          float angle = Mathf.Atan2(mousePos.y - transform.position.y, mousePos.x - transform.position.x) * Mathf.Rad2Deg - 90f;
+
+          transform.localRotation = Quaternion.Euler(0, 0, angle);
+          //-
+        */
         if (Input.GetMouseButton(0) && fireTimer <= 0f)
         {
             Shoot();
@@ -60,6 +66,8 @@ public class Player : MonoBehaviour
 
     private void Shoot()
     {
+        audioSource.PlayOneShot(shootingAudioClip);
+        audioSource.pitch = UnityEngine.Random.Range(1.8f, 2f); // randomoi ääntä hiukan ettei siitä tulis liian toistuva
         Instantiate(bulletPrefab, firingPoint.position, firingPoint.rotation);
     }
 }
