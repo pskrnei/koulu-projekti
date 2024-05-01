@@ -198,6 +198,7 @@ MonoBehaviour:
   distanceToStop: 3
   fireRate: 0.5
   firingPoint: {fileID: 4757322626900185391}
+  sprite: {fileID: 8679740271336679766}
 --- !u!114 &6006246316252245292
 MonoBehaviour:
   m_ObjectHideFlags: 0
