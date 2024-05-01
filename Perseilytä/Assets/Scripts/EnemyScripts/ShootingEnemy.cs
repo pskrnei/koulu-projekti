@@ -95,4 +95,24 @@ public class ShootingEnemy : MonoBehaviour
             Destroy(gameObject);
         }
     }
+
+    //välähdyskoodi
+
+    public SpriteRenderer sprite;
+
+    public void OnCollisionEnter2D(Collision2D collision)
+    {
+        if(collision.gameObject.tag == "Bullet")
+        {
+            StartCoroutine(FlashRed());
+        }
+    }
+
+    public IEnumerator FlashRed()
+    {
+        sprite.color = Color.red;
+        yield return new WaitForSeconds(0.1f);
+        sprite.color = Color.white;
+    }
+
 }
