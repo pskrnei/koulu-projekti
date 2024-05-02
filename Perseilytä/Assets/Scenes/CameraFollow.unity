@@ -922,7 +922,7 @@ MonoBehaviour:
   speed: 10
   bulletPrefab: {fileID: 1813531732695697806, guid: e08cce30c2967594d9af83035438c39a, type: 3}
   firingPoint: {fileID: 1433573679}
-  fireRate: 0.15
+  fireRate: 0.1
   audioSource: {fileID: 1433573685}
   shootingAudioClip: {fileID: 8300000, guid: cb86d092a59393244bc6de304a40436a, type: 3}
 --- !u!114 &1433573682
@@ -1171,7 +1171,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7751772000464148551, guid: f1bc89117f7b4134c9d372c837952239, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
