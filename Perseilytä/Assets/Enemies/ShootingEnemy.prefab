@@ -79,7 +79,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: e3aa9d8234b643441ac72a1cd97d0ed7, type: 3}
+  m_Sprite: {fileID: 21300000, guid: b66dc29c6291f4942bc57ccf98b3f5d8, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 1
@@ -189,7 +189,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   target: {fileID: 0}
-  speed: 3
+  speed: 2
   rotateSpeed: 0.025
   bulletPrefab: {fileID: 1813531732695697806, guid: 0797a57df9d80534ab394992fd183628, type: 3}
   pHealth: {fileID: 0}
@@ -214,6 +214,7 @@ MonoBehaviour:
   ScoreManager: {fileID: 0}
   health: 2
   maxHealth: 2
+  deathParticles: {fileID: 7359565601134754673, guid: 2750f35d102014847b57e91b2861dbee, type: 3}
 --- !u!1 &8178408764661096374
 GameObject:
   m_ObjectHideFlags: 0

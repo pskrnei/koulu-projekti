@@ -13,6 +13,8 @@ public class EnemyHealth : MonoBehaviour
     //lisä
     private Rigidbody2D rb;
 
+    public ParticleSystem deathParticles;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -26,14 +28,18 @@ public class EnemyHealth : MonoBehaviour
    {
         if (health <= 0)
         {
-            Destroy(gameObject);
+            DestroyEnemy();
             if (ScoreManager != null)
             {
                 ScoreManager.UpdateScore();
             }
         }
     }
-   
-    
+
+    public void DestroyEnemy()
+    {
+        Instantiate(deathParticles, transform.position, Quaternion.identity);
+        Destroy(gameObject);
+    }
 
 }
