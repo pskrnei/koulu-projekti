@@ -637,12 +637,12 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Enemy1: {fileID: 8566393518702308380, guid: f0717de5f5df52040ac8223fd12e268f, type: 3}
   Enemy2: {fileID: 1591787518582106218, guid: c8d8b7f19be9a014897dbab1bad77f7a, type: 3}
-  Enemy3: {fileID: 8566393518702308380, guid: f0717de5f5df52040ac8223fd12e268f, type: 3}
+  Enemy3: {fileID: 8566393518702308380, guid: 66c521b31bb5a4b46ab4427a164180c6, type: 3}
   widthOffset: 10
   heightOffset: 10
-  enemy1Probability: 0.3
-  enemy2Probability: 0.4
-  enemy3Probability: 0.3
+  enemy1Probability: 0.4
+  enemy2Probability: 0.3
+  enemy3Probability: 0.001
   minSpeed: 2
   maxSpeed: 10
 --- !u!1 &1372853358
@@ -968,7 +968,7 @@ BoxCollider2D:
     m_Bits: 0
   m_ExcludeLayers:
     serializedVersion: 2
-    m_Bits: 0
+    m_Bits: 128
   m_LayerOverridePriority: 0
   m_ForceSendLayers:
     serializedVersion: 2
@@ -985,7 +985,7 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0, y: -0.54247487}
+  m_Offset: {x: 0, y: -0.5334594}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -996,7 +996,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 1.7, y: 1.5150502}
+  m_Size: {x: 1.7, y: 1.533081}
   m_EdgeRadius: 0
 --- !u!82 &1433573685
 AudioSource:
@@ -1171,7 +1171,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7751772000464148551, guid: f1bc89117f7b4134c9d372c837952239, type: 3}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
