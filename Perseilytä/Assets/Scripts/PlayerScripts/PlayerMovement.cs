@@ -4,9 +4,18 @@ using UnityEngine;
 
 public class PlayerMovement : MonoBehaviour {
 
-    public float maxSpeed = 25f;
+    public float maxSpeed;
     public float rotSpeed = 1000f;
     //Vector3 previousMousePosition;
+
+
+    //dash variablet
+    private bool canDash = true;
+    public float dashCooldown = 2f;
+    public float dashTime = 0.25f;
+    private float defaultSpeed;
+    
+
 
     // Start is called before the first frame update
     void Start()
@@ -14,6 +23,13 @@ public class PlayerMovement : MonoBehaviour {
        // previousMousePosition = Input.mousePosition;
     }
 
+    private void Update()
+    {
+        if (Input.GetKeyDown(KeyCode.LeftShift) && canDash)
+        {
+            StartCoroutine(dash());
+        }
+    }
     // Update is called once per frame
     void FixedUpdate()
     {
@@ -51,5 +67,17 @@ public class PlayerMovement : MonoBehaviour {
 
         transform.position = pos;
     }
+
+    private IEnumerator dash()
+    {
+        defaultSpeed = maxSpeed;
+        canDash = false;
+        maxSpeed = 25f;
+        yield return new WaitForSeconds(dashTime);
+        maxSpeed = defaultSpeed;
+        yield return new WaitForSeconds(dashCooldown);
+        canDash = true;
+    }
+
 
 }
