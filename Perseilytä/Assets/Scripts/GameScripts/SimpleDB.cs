@@ -36,11 +36,11 @@ public class SimpleDB : MonoBehaviour
             {
                 //tekee pöydän "playerData" jos semmoista ei jo ole
                 //4 fieldiä. id, username, password ja score
+                //otin passwordin pois, koska kirjautuminen ei luultavasti tule olemaan asia
                 
                 command.CommandText = @"CREATE TABLE IF NOT EXISTS playerData (
                                         id INTEGER PRIMARY KEY,
                                         username VARCHAR(20) UNIQUE,
-                                        password VARCHAR,
                                         score INTEGER
                                         );";
                 command.ExecuteNonQuery();
@@ -50,4 +50,19 @@ public class SimpleDB : MonoBehaviour
         }
     }
 
+    public void savePlayerData(string username, int score)
+    {
+        using(var connection = new SqliteConnection(dbName))
+        {
+            connection.Open();
+            using (var command = connection.CreateCommand())
+            {
+                command.CommandText = "INSERT INTO playerData (username, score) VALUES (@username, @score)";
+                command.Parameters.AddWithValue("@username", username);
+                command.Parameters.AddWithValue("@score", score);
+                command.ExecuteNonQuery();
+            }
+            connection.Close();
+        }
+    }
 } 
