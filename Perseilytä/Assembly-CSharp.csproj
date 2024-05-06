@@ -62,6 +62,7 @@
   <ItemGroup>
     <Compile Include="Assets\Scripts\GameScripts\ScoreManager.cs" />
     <Compile Include="Assets\Scripts\EnemyScripts\Damage.cs" />
+    <Compile Include="Assets\Scripts\GameScripts\MainMenuController.cs" />
     <Compile Include="Assets\Scripts\EnemyScripts\eBullet_2.1.cs" />
     <Compile Include="Assets\Scripts\PlayerScripts\TopDownMovement.cs" />
     <Compile Include="Assets\Scripts\PlayerScripts\Rajat 2.cs" />
@@ -71,6 +72,7 @@
     <Compile Include="Assets\Scripts\PlayerScripts\Player.cs" />
     <Compile Include="Assets\Scripts\GameScripts\ParticleDeletion.cs" />
     <Compile Include="Assets\Scripts\EnemyScripts\Bullet_2.1.cs" />
+    <Compile Include="Assets\GameOverScreenScript.cs" />
     <Compile Include="Assets\Scripts\PlayerScripts\DamageToEnemies.cs" />
     <Compile Include="Assets\Scripts\PlayerScripts\StatusBarHealth.cs" />
     <Compile Include="Assets\Scripts\EnemyScripts\Enemy.cs" />

@@ -12,7 +12,7 @@ public class playerHealth : MonoBehaviour
 
     private bool isDead; //gameover UI juttu
 
-    public GameManagerScript gameManager;
+   
     // Start is called before the first frame update
     void Start()
     {
@@ -29,7 +29,7 @@ public class playerHealth : MonoBehaviour
         if (health <= 0 && !isDead)
         {
             isDead = true;
-            gameManager.gameOver();
+            GameManagerScript.instance.gameOver();
             Destroy(gameObject);
             // Additional death-related actions can be added here
         }

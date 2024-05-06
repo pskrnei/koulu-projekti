@@ -12,8 +12,7 @@ public class GameManagerScript : MonoBehaviour
     public ScoreManager scoreManager;
     public SimpleDB SimpleDB;
 
-    private string playerName;
-    private int playerScore;
+    public string playerName;
 
     private string dbName = "URI=file:Player.db";
     
@@ -41,17 +40,11 @@ public class GameManagerScript : MonoBehaviour
     {
         playerName = name;
     }
-    public void updatePlayerScore(int score)
-    {
-        if (score > playerScore)
-        {
-            playerScore = score;
-        }
-    }
+    
 
     public void SavePlayerData()
     {
-        SimpleDB.savePlayerData(playerName, playerScore); // Save player data using SimpleDB
+        SimpleDB.savePlayerData(playerName, scoreManager.score); // Save player data using SimpleDB
     }
 
 
@@ -64,24 +57,8 @@ public class GameManagerScript : MonoBehaviour
     public void gameOver()
     {
         gameOverUi.SetActive(true);
+        SavePlayerData();
     }
 
-    public void restart()
-    {
-        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
-    }
-
-    public void mainMenu()
-    {
-        SceneManager.LoadScene("MainMenu");
-       // Debug.Log("main menu");
-    }
-
-    public void quitGame()
-    {
-        Application.Quit();
-       // Debug.Log("Quit");
-    }
-
-
+    
 }

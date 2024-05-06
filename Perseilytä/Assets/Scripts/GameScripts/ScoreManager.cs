@@ -6,7 +6,7 @@ public class ScoreManager : MonoBehaviour
 {
     public Text scoreText; // Viittaus tekstikentt‰‰n, jossa n‰ytet‰‰n pistem‰‰r‰
     public int score = 0; // Pistem‰‰r‰ alussa on 0
-    public GameManagerScript gameManagerScript;
+    
 
     void Start()
     {
@@ -16,6 +16,8 @@ public class ScoreManager : MonoBehaviour
 
         // P‰ivitet‰‰n pistem‰‰r‰ n‰ytˆll‰
         UpdateScoreDisplay();
+
+        GameManagerScript.instance.scoreManager = this;
     }
 
     // Metodi, jolla p‰ivitet‰‰n pistem‰‰r‰ n‰ytˆll‰

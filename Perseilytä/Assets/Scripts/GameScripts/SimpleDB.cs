@@ -40,7 +40,7 @@ public class SimpleDB : MonoBehaviour
                 
                 command.CommandText = @"CREATE TABLE IF NOT EXISTS playerData (
                                         id INTEGER PRIMARY KEY,
-                                        username VARCHAR(20) UNIQUE,
+                                        username VARCHAR(20),
                                         score INTEGER
                                         );";
                 command.ExecuteNonQuery();
