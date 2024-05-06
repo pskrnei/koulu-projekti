@@ -11,11 +11,11 @@ public class PlayerMovement : MonoBehaviour {
 
     //dash variablet
     private bool canDash = true;
-    public float dashCooldown = 2f;
-    public float dashTime = 0.25f;
     private float defaultSpeed;
-    
-
+    [SerializeField] float dashCooldown = 2f;
+    [SerializeField] float dashTime = 0.25f;
+    [SerializeField] float dashSpeed = 25.0f;
+    [SerializeField] TrailRenderer trailRenderer;
 
     // Start is called before the first frame update
     void Start()
@@ -70,11 +70,13 @@ public class PlayerMovement : MonoBehaviour {
 
     private IEnumerator dash()
     {
+        trailRenderer.emitting = true;
         defaultSpeed = maxSpeed;
         canDash = false;
-        maxSpeed = 25f;
+        maxSpeed = dashSpeed;
         yield return new WaitForSeconds(dashTime);
         maxSpeed = defaultSpeed;
+        trailRenderer.emitting = false;
         yield return new WaitForSeconds(dashCooldown);
         canDash = true;
     }
