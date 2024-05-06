@@ -75,6 +75,7 @@
     <Compile Include="Assets\Scripts\PlayerScripts\StatusBarHealth.cs" />
     <Compile Include="Assets\Scripts\EnemyScripts\Enemy.cs" />
     <Compile Include="Assets\Scripts\GameScripts\PauseMenuScript.cs" />
+    <Compile Include="Assets\Scripts\GameScripts\SimpleDB.cs" />
     <Compile Include="Assets\Scripts\PlayerScripts\Bullet_2.0.cs" />
     <Compile Include="Assets\Scripts\EnemyScripts\enemyHealth_2.0.cs" />
     <Compile Include="Assets\Scripts\EnemyScripts\ESpawner 1.cs" />
@@ -445,6 +446,10 @@
     </Reference>
     <Reference Include="Unity.VisualScripting.Antlr3.Runtime">
       <HintPath>Library\PackageCache\com.unity.visualscripting@1.9.2\Runtime\VisualScripting.Flow\Dependencies\NCalc\Unity.VisualScripting.Antlr3.Runtime.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Mono.Data.Sqlite">
+      <HintPath>Assets\Plugins\Mono.Data.Sqlite.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="netstandard">
