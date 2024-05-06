@@ -27,7 +27,8 @@ public class ScoreManager : MonoBehaviour
     // Metodi, jota kutsutaan, kun pistem‰‰r‰‰ pit‰‰ p‰ivitt‰‰
     public void UpdateScore()
     {
-        score ++; // Lis‰t‰‰n yksi piste pistem‰‰r‰‰n
+        //gameManagerScript.updatePlayerScore(++score); koittaa tota jos muu toimii
+        score++; // Lis‰t‰‰n yksi piste pistem‰‰r‰‰n
         UpdateScoreDisplay(); // P‰ivitet‰‰n pistem‰‰r‰ n‰ytˆll‰
         Debug.Log(score);
     }

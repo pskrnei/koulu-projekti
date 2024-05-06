@@ -37,14 +37,18 @@ public class GameManagerScript : MonoBehaviour
     }
 
     //tietokanta funktiot
-    public void setPlayerName(string playerName)
+    public void setPlayerName(string name)// koita playerName toho jos ei toimi
     {
         playerName = name;
     }
     public void updatePlayerScore(int score)
     {
-        playerScore += score; // TODO korjaa että ylikirjoittaa scoren vain jos se on isompi
+        if (score > playerScore)
+        {
+            playerScore = score;
+        }
     }
+
     public void SavePlayerData()
     {
         SimpleDB.savePlayerData(playerName, playerScore); // Save player data using SimpleDB
