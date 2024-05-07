@@ -28,7 +28,7 @@ public class eBullet_ : MonoBehaviour
         rb.velocity = transform.up * speed;
     }
 
-    private void OnCollisionEnter2D(Collision2D other)
+    private void OnTriggerEnter2D(Collider2D other)
     {
         if (other.gameObject.CompareTag("Player"))
         {
