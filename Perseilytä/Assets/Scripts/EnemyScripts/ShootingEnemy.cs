@@ -21,6 +21,10 @@ public class ShootingEnemy : MonoBehaviour
     
 
     public Transform firingPoint;
+    
+    public AudioSource audioSource;
+    public AudioClip shootingEnemy;
+    
 
     private void Start()
     {
@@ -49,6 +53,8 @@ public class ShootingEnemy : MonoBehaviour
     {
         if (timeToFire <= 0f)
         {
+            audioSource.PlayOneShot(shootingEnemy);
+            audioSource.pitch = UnityEngine.Random.Range(0.9f, 1.1f);
             Instantiate(bulletPrefab, firingPoint.position, firingPoint.rotation);
             timeToFire = fireRate;
         }
@@ -96,6 +102,7 @@ public class ShootingEnemy : MonoBehaviour
         }
     }
 
+    
     //välähdyskoodi
 
     public SpriteRenderer sprite;
