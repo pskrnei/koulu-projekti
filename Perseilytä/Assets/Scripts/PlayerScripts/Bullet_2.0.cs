@@ -15,6 +15,8 @@ public class Bullet_ : MonoBehaviour
 
     private Rigidbody2D rb;
 
+    [SerializeField] ParticleSystem hitParticle;
+
     //public LayerMask ignoreLayer; //Define the layer to ignore collision with.
 
     private void Start()
@@ -32,6 +34,7 @@ public class Bullet_ : MonoBehaviour
     {
         if (other.gameObject.CompareTag("Enemy"))
         {
+            Instantiate(hitParticle, transform.position, Quaternion.identity);
             other.gameObject.GetComponent<EnemyHealth>().health -= damage;
             Destroy(gameObject);
         }
