@@ -166,6 +166,7 @@ MonoBehaviour:
   damage: 1
   speed: 10
   lifeTime: 2
+  hitParticle: {fileID: 80605233262597610, guid: afb958e0a0f5f1e42b6428d255b7bee8, type: 3}
 --- !u!108 &448398144506481322
 Light:
   m_ObjectHideFlags: 0
