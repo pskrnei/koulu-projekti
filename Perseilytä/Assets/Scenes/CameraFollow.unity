@@ -6520,6 +6520,7 @@ MonoBehaviour:
   fireRate: 0.1
   audioSource: {fileID: 1433573685}
   shootingAudioClip: {fileID: 8300000, guid: cb86d092a59393244bc6de304a40436a, type: 3}
+  playerSprite: {fileID: 1433573678}
 --- !u!114 &1433573682
 MonoBehaviour:
   m_ObjectHideFlags: 0

@@ -38,16 +38,6 @@ public class Player : MonoBehaviour
     // Update is called once per frame
     private void Update()
     {
-        /*  mx = Input.GetAxisRaw("Horizontal");
-          my = Input.GetAxisRaw("Vertical");
-          //Pyöriminen
-          mousePos = Camera.main.ScreenToViewportPoint(Input.mousePosition);
-
-          float angle = Mathf.Atan2(mousePos.y - transform.position.y, mousePos.x - transform.position.x) * Mathf.Rad2Deg - 90f;
-
-          transform.localRotation = Quaternion.Euler(0, 0, angle);
-          //-
-        */
         if (Input.GetMouseButton(0) && fireTimer <= 0f)
         {
             Shoot();
@@ -69,5 +59,25 @@ public class Player : MonoBehaviour
         audioSource.PlayOneShot(shootingAudioClip);
         audioSource.pitch = UnityEngine.Random.Range(1.8f, 2f); // randomoi ääntä hiukan ettei siitä tulis liian toistuva
         Instantiate(bulletPrefab, firingPoint.position, firingPoint.rotation);
+    }
+
+
+    //välähdyskoodi
+
+    public SpriteRenderer playerSprite;
+
+    public void OnTriggerEnter2D(Collider2D collision)
+    {
+        if (collision.gameObject.tag == "EnemyBullet")
+        {
+            StartCoroutine(FlashRed());
+        }
+    }
+
+    public IEnumerator FlashRed()
+    {
+        playerSprite.color = Color.red;
+        yield return new WaitForSeconds(0.1f);
+        playerSprite.color = Color.white;
     }
 }
