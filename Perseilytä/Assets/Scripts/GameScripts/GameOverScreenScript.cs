@@ -30,13 +30,12 @@ public class GameOverScreenScript : MonoBehaviour
 
     public void mainMenu()
     {
+        GameManagerScript.instance = null; // reset instance että saa uuden data tallennettua
         SceneManager.LoadScene("MainMenu");
-        // Debug.Log("main menu");
     }
 
     public void quitGame()
     {
         Application.Quit();
-        // Debug.Log("Quit");
     }
 }
