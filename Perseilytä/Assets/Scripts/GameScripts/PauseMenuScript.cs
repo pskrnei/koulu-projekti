@@ -49,6 +49,8 @@ public class PauseMenu : MonoBehaviour
     public void GoToMainMenu()
     {
         Time.timeScale = 1f;
+        GameManagerScript.instance.SavePlayerData();
+        GameManagerScript.instance = null; // reset instance että saa uuden data tallennettua
         SceneManager.LoadScene("MainMenu");
     }
 
