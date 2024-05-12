@@ -60,11 +60,8 @@
     <Analyzer Include="C:\Program Files\Unity\Hub\Editor\2022.3.22f1\Editor\Data\Tools\Unity.SourceGenerators\Unity.Properties.SourceGenerator.dll" />
   </ItemGroup>
   <ItemGroup>
-<<<<<<< HEAD
     <Compile Include="Assets\Scripts\BulletNoPush.cs" />
-=======
     <Compile Include="Assets\2D Space Kit\Scripts\PSDestroy.cs" />
->>>>>>> main
     <Compile Include="Assets\Scripts\GameScripts\ScoreManager.cs" />
     <Compile Include="Assets\Scripts\EnemyScripts\Damage.cs" />
     <Compile Include="Assets\Scripts\GameScripts\MainMenuController.cs" />
@@ -471,6 +468,14 @@
     </Reference>
     <Reference Include="Mono.Data.Sqlite">
       <HintPath>Assets\Plugins\Mono.Data.Sqlite.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEditor.iOS.Extensions.Xcode">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2022.3.22f1\Editor\Data\PlaybackEngines\iOSSupport\UnityEditor.iOS.Extensions.Xcode.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEditor.iOS.Extensions.Common">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2022.3.22f1\Editor\Data\PlaybackEngines\iOSSupport\UnityEditor.iOS.Extensions.Common.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="Unity.Android.Types">
