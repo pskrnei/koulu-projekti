@@ -6,7 +6,10 @@ using UnityEngine.UI;
 
 public class EnemyHealth : MonoBehaviour
 {
-    public ScoreManager ScoreManager; // Viittaus ScoreManager-skriptiin
+
+    [SerializeField] private GameObject ExpGem;
+    
+    [SerializeField] ScoreManager ScoreManager; // Viittaus ScoreManager-skriptiin
     public float health;
     public float maxHealth = 100f;
 
@@ -39,7 +42,9 @@ public class EnemyHealth : MonoBehaviour
     public void DestroyEnemy()
     {
         Instantiate(deathParticles, transform.position, Quaternion.identity);
+        Instantiate(ExpGem, transform.position, Quaternion.identity);
         Destroy(gameObject);
+        
     }
 
 }
