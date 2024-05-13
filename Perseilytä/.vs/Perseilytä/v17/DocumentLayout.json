@@ -3,12 +3,20 @@
   "WorkspaceRootPath": "D:\\GitHub\\koulu-projekti\\koulu-projekti\\Perseilyt\u00E4\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{509D93C8-DFAA-9411-6B2B-28F08D40170B}|Assembly-CSharp.csproj|d:\\github\\koulu-projekti\\koulu-projekti\\perseilyt\u00E4\\assets\\2d space kit\\background elements\\planets\\planet masks\\note.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
-      "RelativeMoniker": "D:0:0:{509D93C8-DFAA-9411-6B2B-28F08D40170B}|Assembly-CSharp.csproj|solutionrelative:assets\\2d space kit\\background elements\\planets\\planet masks\\note.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
+      "AbsoluteMoniker": "D:0:0:{509D93C8-DFAA-9411-6B2B-28F08D40170B}|Assembly-CSharp.csproj|d:\\github\\koulu-projekti\\koulu-projekti\\perseilyt\u00E4\\assets\\xpmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{509D93C8-DFAA-9411-6B2B-28F08D40170B}|Assembly-CSharp.csproj|solutionrelative:assets\\xpmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{509D93C8-DFAA-9411-6B2B-28F08D40170B}|Assembly-CSharp.csproj|d:\\github\\koulu-projekti\\koulu-projekti\\perseilyt\u00E4\\assets\\scripts\\gamescripts\\gamemanagerscript.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{509D93C8-DFAA-9411-6B2B-28F08D40170B}|Assembly-CSharp.csproj|D:\\GitHub\\koulu-projekti\\koulu-projekti\\Perseilyt\u00E4\\assets\\scripts\\gamescripts\\gamemanagerscript.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{509D93C8-DFAA-9411-6B2B-28F08D40170B}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\gamescripts\\gamemanagerscript.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{509D93C8-DFAA-9411-6B2B-28F08D40170B}|Assembly-CSharp.csproj|D:\\GitHub\\koulu-projekti\\koulu-projekti\\Perseilyt\u00E4\\assets\\scripts\\gamescripts\\mainmenucontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{509D93C8-DFAA-9411-6B2B-28F08D40170B}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\gamescripts\\mainmenucontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{509D93C8-DFAA-9411-6B2B-28F08D40170B}|Assembly-CSharp.csproj|D:\\GitHub\\koulu-projekti\\koulu-projekti\\Perseilyt\u00E4\\assets\\2d space kit\\background elements\\planets\\planet masks\\note.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{509D93C8-DFAA-9411-6B2B-28F08D40170B}|Assembly-CSharp.csproj|solutionrelative:assets\\2d space kit\\background elements\\planets\\planet masks\\note.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{509D93C8-DFAA-9411-6B2B-28F08D40170B}|Assembly-CSharp.csproj|D:\\GitHub\\koulu-projekti\\koulu-projekti\\Perseilyt\u00E4\\assets\\scripts\\gamescripts\\pausemenuscript.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -55,10 +63,6 @@
       "RelativeMoniker": "D:0:0:{509D93C8-DFAA-9411-6B2B-28F08D40170B}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\enemyscripts\\espawner 1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{509D93C8-DFAA-9411-6B2B-28F08D40170B}|Assembly-CSharp.csproj|D:\\GitHub\\koulu-projekti\\koulu-projekti\\Perseilyt\u00E4\\assets\\scripts\\gamescripts\\mainmenucontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{509D93C8-DFAA-9411-6B2B-28F08D40170B}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\gamescripts\\mainmenucontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{509D93C8-DFAA-9411-6B2B-28F08D40170B}|Assembly-CSharp.csproj|D:\\GitHub\\koulu-projekti\\koulu-projekti\\Perseilyt\u00E4\\assets\\scripts\\gamescripts\\simpledb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{509D93C8-DFAA-9411-6B2B-28F08D40170B}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\gamescripts\\simpledb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -87,55 +91,19 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Note.txt",
-              "DocumentMoniker": "D:\\GitHub\\koulu-projekti\\koulu-projekti\\Perseilyt\u00E4\\Assets\\2D Space Kit\\Background Elements\\Planets\\Planet Masks\\Note.txt",
-              "RelativeDocumentMoniker": "Assets\\2D Space Kit\\Background Elements\\Planets\\Planet Masks\\Note.txt",
-              "ToolTip": "D:\\GitHub\\koulu-projekti\\koulu-projekti\\Perseilyt\u00E4\\Assets\\2D Space Kit\\Background Elements\\Planets\\Planet Masks\\Note.txt",
-              "RelativeToolTip": "Assets\\2D Space Kit\\Background Elements\\Planets\\Planet Masks\\Note.txt",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
-              "WhenOpened": "2024-05-10T16:18:27.802Z",
+              "Title": "XpManager.cs",
+              "DocumentMoniker": "D:\\GitHub\\koulu-projekti\\koulu-projekti\\Perseilyt\u00E4\\Assets\\XpManager.cs",
+              "RelativeDocumentMoniker": "Assets\\XpManager.cs",
+              "ToolTip": "D:\\GitHub\\koulu-projekti\\koulu-projekti\\Perseilyt\u00E4\\Assets\\XpManager.cs",
+              "RelativeToolTip": "Assets\\XpManager.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-13T12:56:49.656Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Player.cs",
-              "DocumentMoniker": "D:\\GitHub\\koulu-projekti\\koulu-projekti\\Perseilyt\u00E4\\Assets\\Scripts\\PlayerScripts\\Player.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\PlayerScripts\\Player.cs",
-              "ToolTip": "D:\\GitHub\\koulu-projekti\\koulu-projekti\\Perseilyt\u00E4\\Assets\\Scripts\\PlayerScripts\\Player.cs",
-              "RelativeToolTip": "Assets\\Scripts\\PlayerScripts\\Player.cs",
-              "ViewState": "AQIAACYAAAAAAAAAAAAQwDoAAAAzAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-01T15:43:42.962Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "ShootingEnemy.cs",
-              "DocumentMoniker": "D:\\GitHub\\koulu-projekti\\koulu-projekti\\Perseilyt\u00E4\\Assets\\Scripts\\EnemyScripts\\ShootingEnemy.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\EnemyScripts\\ShootingEnemy.cs",
-              "ToolTip": "D:\\GitHub\\koulu-projekti\\koulu-projekti\\Perseilyt\u00E4\\Assets\\Scripts\\EnemyScripts\\ShootingEnemy.cs",
-              "RelativeToolTip": "Assets\\Scripts\\EnemyScripts\\ShootingEnemy.cs",
-              "ViewState": "AQIAACoAAAAAAAAAAAAowDgAAABFAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-29T12:44:13.782Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "playerHealth.cs",
-              "DocumentMoniker": "D:\\GitHub\\koulu-projekti\\koulu-projekti\\Perseilyt\u00E4\\Assets\\Scripts\\PlayerScripts\\playerHealth.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\PlayerScripts\\playerHealth.cs",
-              "ToolTip": "D:\\GitHub\\koulu-projekti\\koulu-projekti\\Perseilyt\u00E4\\Assets\\Scripts\\PlayerScripts\\playerHealth.cs",
-              "RelativeToolTip": "Assets\\Scripts\\PlayerScripts\\playerHealth.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAB8AAAAjAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-06T10:33:42.513Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 10,
               "Title": "Enemy.cs",
               "DocumentMoniker": "D:\\GitHub\\koulu-projekti\\koulu-projekti\\Perseilyt\u00E4\\Assets\\Scripts\\EnemyScripts\\Enemy.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\EnemyScripts\\Enemy.cs",
@@ -147,7 +115,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 9,
               "Title": "Bullet_2.0.cs",
               "DocumentMoniker": "D:\\GitHub\\koulu-projekti\\koulu-projekti\\Perseilyt\u00E4\\Assets\\Scripts\\PlayerScripts\\Bullet_2.0.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\PlayerScripts\\Bullet_2.0.cs",
@@ -159,7 +127,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 12,
               "Title": "enemyHealth_2.0.cs",
               "DocumentMoniker": "D:\\GitHub\\koulu-projekti\\koulu-projekti\\Perseilyt\u00E4\\Assets\\Scripts\\EnemyScripts\\enemyHealth_2.0.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\EnemyScripts\\enemyHealth_2.0.cs",
@@ -171,7 +139,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 13,
               "Title": "Bullet_2.1.cs",
               "DocumentMoniker": "D:\\GitHub\\koulu-projekti\\koulu-projekti\\Perseilyt\u00E4\\Assets\\Scripts\\EnemyScripts\\Bullet_2.1.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\EnemyScripts\\Bullet_2.1.cs",
@@ -183,7 +151,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 4,
               "Title": "PauseMenuScript.cs",
               "DocumentMoniker": "D:\\GitHub\\koulu-projekti\\koulu-projekti\\Perseilyt\u00E4\\Assets\\Scripts\\GameScripts\\PauseMenuScript.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\GameScripts\\PauseMenuScript.cs",
@@ -201,14 +169,13 @@
               "RelativeDocumentMoniker": "Assets\\Scripts\\GameScripts\\GameManagerScript.cs",
               "ToolTip": "D:\\GitHub\\koulu-projekti\\koulu-projekti\\Perseilyt\u00E4\\Assets\\Scripts\\GameScripts\\GameManagerScript.cs",
               "RelativeToolTip": "Assets\\Scripts\\GameScripts\\GameManagerScript.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABYAAAAFAAAA",
+              "ViewState": "AQIAABkAAAAAAAAAAAAgwBYAAAAFAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-08T06:01:27.718Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-08T06:01:27.718Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 7,
               "Title": "Damage.cs",
               "DocumentMoniker": "D:\\GitHub\\koulu-projekti\\koulu-projekti\\Perseilyt\u00E4\\Assets\\Scripts\\EnemyScripts\\Damage.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\EnemyScripts\\Damage.cs",
@@ -220,7 +187,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 11,
               "Title": "enemyHealth.cs",
               "DocumentMoniker": "D:\\GitHub\\koulu-projekti\\koulu-projekti\\Perseilyt\u00E4\\Assets\\Scripts\\EnemyScripts\\enemyHealth.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\EnemyScripts\\enemyHealth.cs",
@@ -232,55 +199,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
-              "Title": "PlayerMovement.cs",
-              "DocumentMoniker": "D:\\GitHub\\koulu-projekti\\koulu-projekti\\Perseilyt\u00E4\\Assets\\Scripts\\PlayerScripts\\PlayerMovement.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\PlayerScripts\\PlayerMovement.cs",
-              "ToolTip": "D:\\GitHub\\koulu-projekti\\koulu-projekti\\Perseilyt\u00E4\\Assets\\Scripts\\PlayerScripts\\PlayerMovement.cs",
-              "RelativeToolTip": "Assets\\Scripts\\PlayerScripts\\PlayerMovement.cs",
-              "ViewState": "AQIAAC8AAAAAAAAAAAAwwE8AAAA2AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-03T17:31:42.419Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "ESpawner 1.cs",
-              "DocumentMoniker": "D:\\GitHub\\koulu-projekti\\koulu-projekti\\Perseilyt\u00E4\\Assets\\Scripts\\EnemyScripts\\ESpawner 1.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\EnemyScripts\\ESpawner 1.cs",
-              "ToolTip": "D:\\GitHub\\koulu-projekti\\koulu-projekti\\Perseilyt\u00E4\\Assets\\Scripts\\EnemyScripts\\ESpawner 1.cs",
-              "RelativeToolTip": "Assets\\Scripts\\EnemyScripts\\ESpawner 1.cs",
-              "ViewState": "AQIAAE4AAAAAAAAAAAAcwGMAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-06T09:49:51.484Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 17,
-              "Title": "GameOverScreenScript.cs",
-              "DocumentMoniker": "D:\\GitHub\\koulu-projekti\\koulu-projekti\\Perseilyt\u00E4\\Assets\\Scripts\\GameScripts\\GameOverScreenScript.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\GameScripts\\GameOverScreenScript.cs",
-              "ToolTip": "D:\\GitHub\\koulu-projekti\\koulu-projekti\\Perseilyt\u00E4\\Assets\\Scripts\\GameScripts\\GameOverScreenScript.cs",
-              "RelativeToolTip": "Assets\\Scripts\\GameScripts\\GameOverScreenScript.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-08T06:00:30.104Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "SimpleDB.cs",
-              "DocumentMoniker": "D:\\GitHub\\koulu-projekti\\koulu-projekti\\Perseilyt\u00E4\\Assets\\Scripts\\GameScripts\\SimpleDB.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\GameScripts\\SimpleDB.cs",
-              "ToolTip": "D:\\GitHub\\koulu-projekti\\koulu-projekti\\Perseilyt\u00E4\\Assets\\Scripts\\GameScripts\\SimpleDB.cs",
-              "RelativeToolTip": "Assets\\Scripts\\GameScripts\\SimpleDB.cs",
-              "ViewState": "AQIAABgAAAAAAAAAAAAowDsAAABsAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-06T06:52:31.549Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 2,
               "Title": "MainMenuController.cs",
               "DocumentMoniker": "D:\\GitHub\\koulu-projekti\\koulu-projekti\\Perseilyt\u00E4\\Assets\\Scripts\\GameScripts\\MainMenuController.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\GameScripts\\MainMenuController.cs",
@@ -292,7 +211,103 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "playerHealth.cs",
+              "DocumentMoniker": "D:\\GitHub\\koulu-projekti\\koulu-projekti\\Perseilyt\u00E4\\Assets\\Scripts\\PlayerScripts\\playerHealth.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\PlayerScripts\\playerHealth.cs",
+              "ToolTip": "D:\\GitHub\\koulu-projekti\\koulu-projekti\\Perseilyt\u00E4\\Assets\\Scripts\\PlayerScripts\\playerHealth.cs",
+              "RelativeToolTip": "Assets\\Scripts\\PlayerScripts\\playerHealth.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAB8AAAAjAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-06T10:33:42.513Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ShootingEnemy.cs",
+              "DocumentMoniker": "D:\\GitHub\\koulu-projekti\\koulu-projekti\\Perseilyt\u00E4\\Assets\\Scripts\\EnemyScripts\\ShootingEnemy.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\EnemyScripts\\ShootingEnemy.cs",
+              "ToolTip": "D:\\GitHub\\koulu-projekti\\koulu-projekti\\Perseilyt\u00E4\\Assets\\Scripts\\EnemyScripts\\ShootingEnemy.cs",
+              "RelativeToolTip": "Assets\\Scripts\\EnemyScripts\\ShootingEnemy.cs",
+              "ViewState": "AQIAACoAAAAAAAAAAAAowDgAAABFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-29T12:44:13.782Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Player.cs",
+              "DocumentMoniker": "D:\\GitHub\\koulu-projekti\\koulu-projekti\\Perseilyt\u00E4\\Assets\\Scripts\\PlayerScripts\\Player.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\PlayerScripts\\Player.cs",
+              "ToolTip": "D:\\GitHub\\koulu-projekti\\koulu-projekti\\Perseilyt\u00E4\\Assets\\Scripts\\PlayerScripts\\Player.cs",
+              "RelativeToolTip": "Assets\\Scripts\\PlayerScripts\\Player.cs",
+              "ViewState": "AQIAACYAAAAAAAAAAAAQwDoAAAAzAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-01T15:43:42.962Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Note.txt",
+              "DocumentMoniker": "D:\\GitHub\\koulu-projekti\\koulu-projekti\\Perseilyt\u00E4\\Assets\\2D Space Kit\\Background Elements\\Planets\\Planet Masks\\Note.txt",
+              "RelativeDocumentMoniker": "Assets\\2D Space Kit\\Background Elements\\Planets\\Planet Masks\\Note.txt",
+              "ToolTip": "D:\\GitHub\\koulu-projekti\\koulu-projekti\\Perseilyt\u00E4\\Assets\\2D Space Kit\\Background Elements\\Planets\\Planet Masks\\Note.txt",
+              "RelativeToolTip": "Assets\\2D Space Kit\\Background Elements\\Planets\\Planet Masks\\Note.txt",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
+              "WhenOpened": "2024-05-10T16:18:27.802Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "PlayerMovement.cs",
+              "DocumentMoniker": "D:\\GitHub\\koulu-projekti\\koulu-projekti\\Perseilyt\u00E4\\Assets\\Scripts\\PlayerScripts\\PlayerMovement.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\PlayerScripts\\PlayerMovement.cs",
+              "ToolTip": "D:\\GitHub\\koulu-projekti\\koulu-projekti\\Perseilyt\u00E4\\Assets\\Scripts\\PlayerScripts\\PlayerMovement.cs",
+              "RelativeToolTip": "Assets\\Scripts\\PlayerScripts\\PlayerMovement.cs",
+              "ViewState": "AQIAAC8AAAAAAAAAAAAwwE8AAAA2AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-03T17:31:42.419Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "ESpawner 1.cs",
+              "DocumentMoniker": "D:\\GitHub\\koulu-projekti\\koulu-projekti\\Perseilyt\u00E4\\Assets\\Scripts\\EnemyScripts\\ESpawner 1.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\EnemyScripts\\ESpawner 1.cs",
+              "ToolTip": "D:\\GitHub\\koulu-projekti\\koulu-projekti\\Perseilyt\u00E4\\Assets\\Scripts\\EnemyScripts\\ESpawner 1.cs",
+              "RelativeToolTip": "Assets\\Scripts\\EnemyScripts\\ESpawner 1.cs",
+              "ViewState": "AQIAAE4AAAAAAAAAAAAcwGMAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-06T09:49:51.484Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "GameOverScreenScript.cs",
+              "DocumentMoniker": "D:\\GitHub\\koulu-projekti\\koulu-projekti\\Perseilyt\u00E4\\Assets\\Scripts\\GameScripts\\GameOverScreenScript.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\GameScripts\\GameOverScreenScript.cs",
+              "ToolTip": "D:\\GitHub\\koulu-projekti\\koulu-projekti\\Perseilyt\u00E4\\Assets\\Scripts\\GameScripts\\GameOverScreenScript.cs",
+              "RelativeToolTip": "Assets\\Scripts\\GameScripts\\GameOverScreenScript.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-08T06:00:30.104Z"
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 15,
+              "Title": "SimpleDB.cs",
+              "DocumentMoniker": "D:\\GitHub\\koulu-projekti\\koulu-projekti\\Perseilyt\u00E4\\Assets\\Scripts\\GameScripts\\SimpleDB.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\GameScripts\\SimpleDB.cs",
+              "ToolTip": "D:\\GitHub\\koulu-projekti\\koulu-projekti\\Perseilyt\u00E4\\Assets\\Scripts\\GameScripts\\SimpleDB.cs",
+              "RelativeToolTip": "Assets\\Scripts\\GameScripts\\SimpleDB.cs",
+              "ViewState": "AQIAABgAAAAAAAAAAAAowDsAAABsAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-06T06:52:31.549Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
               "Title": "ScoreManager.cs",
               "DocumentMoniker": "D:\\GitHub\\koulu-projekti\\koulu-projekti\\Perseilyt\u00E4\\Assets\\Scripts\\GameScripts\\ScoreManager.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\GameScripts\\ScoreManager.cs",
