@@ -16,6 +16,8 @@ public class PlayerMovement : MonoBehaviour {
     [SerializeField] float dashTime = 0.25f;
     [SerializeField] float dashSpeed = 25.0f;
     [SerializeField] TrailRenderer trailRenderer;
+    public AudioSource audioSource;
+    public AudioClip dashSound;
 
     // Start is called before the first frame update
     void Start()
@@ -70,6 +72,7 @@ public class PlayerMovement : MonoBehaviour {
 
     private IEnumerator dash()
     {
+        AudioSource.PlayClipAtPoint(dashSound, transform.position);
         trailRenderer.emitting = true;
         defaultSpeed = maxSpeed;
         canDash = false;
