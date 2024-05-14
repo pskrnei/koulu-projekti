@@ -29,12 +29,14 @@ public class Player : MonoBehaviour
     //pelaajan audiot
     public AudioSource audioSource;
     public AudioClip shootingAudioClip;
+    public AudioClip levelUpAudioClip;
 
     //Exp variablet
     [SerializeField] public float currentExp = 0f;
     [SerializeField] float nextLevelExp = 10f;
     [SerializeField] float level = 1f;
     public Image expBar;
+    [SerializeField] private float fillSpeed = 5f; // fillspeed palkin sulavuuteen
 
     // Start is called before the first frame update
     private void Start()
@@ -46,10 +48,14 @@ public class Player : MonoBehaviour
     private void Update()
     {
         // exp bar koodi
-        expBar.fillAmount = Mathf.Clamp(currentExp / nextLevelExp, 0f, 1f);
+        float targetFillAmount = Mathf.Clamp(currentExp / nextLevelExp, 0f, 1f);
+        expBar.fillAmount = Mathf.Lerp(expBar.fillAmount, targetFillAmount, Time.deltaTime * fillSpeed); // n‰in palkin saa liikkumaan sulavasti
 
-        if(currentExp >= nextLevelExp)
+        
+
+        if (currentExp >= nextLevelExp)
         {
+            audioSource.PlayOneShot(levelUpAudioClip);
             currentExp = 0;
             level++;
             nextLevelExp *= 2;
@@ -75,7 +81,7 @@ public class Player : MonoBehaviour
     {
         audioSource.PlayOneShot(shootingAudioClip);
         audioSource.pitch = UnityEngine.Random.Range(1.8f, 2f); // randomoi ‰‰nt‰ hiukan ettei siit‰ tulis liian toistuva
-        Instantiate(bulletPrefab, firingPoint.position, firingPoint.rotation);
+        Instantiate(bulletPrefab, firingPoint.position, firingPoint.rotation); 
     }
 
 
