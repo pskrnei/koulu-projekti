@@ -214,6 +214,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 30a264481c7aff440a3c85ddfefbe4d4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  ExpGem: {fileID: 922295333988501347, guid: e17f22be3aa1e6744bd4baf1d8526900, type: 3}
   ScoreManager: {fileID: 0}
   health: 2
   maxHealth: 2

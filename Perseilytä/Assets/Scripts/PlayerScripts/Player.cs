@@ -2,6 +2,7 @@ using System;
 using System.Collections;
 using System.Collections.Generic;
 using Unity.Mathematics;
+using Unity.PlasticSCM.Editor.WebApi;
 using UnityEngine;
 
 public class Player : MonoBehaviour
@@ -27,6 +28,10 @@ public class Player : MonoBehaviour
     //pelaajan audiot
     public AudioSource audioSource;
     public AudioClip shootingAudioClip;
+
+    //Exp variablet
+    public float currentExp;
+    public float nextLevelExp;
 
 
     // Start is called before the first frame update

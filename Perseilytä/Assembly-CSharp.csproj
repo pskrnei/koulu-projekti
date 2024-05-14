@@ -78,6 +78,7 @@
     <Compile Include="Assets\Scripts\GameScripts\ParticleDeletion.cs" />
     <Compile Include="Assets\2D Space Kit\Scripts\ParallaxLayer.cs" />
     <Compile Include="Assets\Scripts\EnemyScripts\Bullet_2.1.cs" />
+    <Compile Include="Assets\Scripts\ExpScripts\ExpManager.cs" />
     <Compile Include="Assets\2D Space Kit\Scripts\ShipCamera.cs" />
     <Compile Include="Assets\Scripts\PlayerScripts\DamageToEnemies.cs" />
     <Compile Include="Assets\2D Space Kit\Scripts\PlayerControlledTurret.cs" />
