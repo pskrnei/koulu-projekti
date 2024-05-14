@@ -4,6 +4,7 @@ using System.Collections.Generic;
 using Unity.Mathematics;
 using Unity.PlasticSCM.Editor.WebApi;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class Player : MonoBehaviour
 {
@@ -30,9 +31,10 @@ public class Player : MonoBehaviour
     public AudioClip shootingAudioClip;
 
     //Exp variablet
-    public float currentExp;
-    public float nextLevelExp;
-
+    [SerializeField] public float currentExp = 0f;
+    [SerializeField] float nextLevelExp = 10f;
+    [SerializeField] float level = 1f;
+    public Image expBar;
 
     // Start is called before the first frame update
     private void Start()
@@ -43,6 +45,16 @@ public class Player : MonoBehaviour
     // Update is called once per frame
     private void Update()
     {
+        // exp bar koodi
+        expBar.fillAmount = Mathf.Clamp(currentExp / nextLevelExp, 0f, 1f);
+
+        if(currentExp >= nextLevelExp)
+        {
+            currentExp = 0;
+            level++;
+            nextLevelExp *= 2;
+        }
+        
         if (Input.GetMouseButton(0) && fireTimer <= 0f)
         {
             Shoot();
