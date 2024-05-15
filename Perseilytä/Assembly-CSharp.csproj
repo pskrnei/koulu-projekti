@@ -70,7 +70,6 @@
     <Compile Include="Assets\Scripts\PlayerScripts\TopDownMovement.cs" />
     <Compile Include="Assets\Scripts\PlayerScripts\Rajat 2.cs" />
     <Compile Include="Assets\2D Space Kit\Scripts\AimBeam.cs" />
-    <Compile Include="Assets\Scripts\PlayerScripts\playerHealth.cs" />
     <Compile Include="Assets\2D Space Kit\Scripts\Projectile.cs" />
     <Compile Include="Assets\Scripts\EnemyScripts\ShootingEnemy.cs" />
     <Compile Include="Assets\Scripts\PlayerScripts\PlayerMovement.cs" />
@@ -78,9 +77,9 @@
     <Compile Include="Assets\Scripts\GameScripts\ParticleDeletion.cs" />
     <Compile Include="Assets\2D Space Kit\Scripts\ParallaxLayer.cs" />
     <Compile Include="Assets\Scripts\EnemyScripts\Bullet_2.1.cs" />
+    <Compile Include="Assets\Scripts\PlayerScripts\Health\Heal.cs" />
     <Compile Include="Assets\Scripts\ExpScripts\ExpManager.cs" />
     <Compile Include="Assets\2D Space Kit\Scripts\ShipCamera.cs" />
-    <Compile Include="Assets\Scripts\PlayerScripts\DamageToEnemies.cs" />
     <Compile Include="Assets\2D Space Kit\Scripts\PlayerControlledTurret.cs" />
     <Compile Include="Assets\Scripts\GameScripts\GameOverScreenScript.cs" />
     <Compile Include="Assets\Scripts\PlayerScripts\StatusBarHealth.cs" />
@@ -91,6 +90,8 @@
     <Compile Include="Assets\Scripts\PlayerScripts\Bullet_2.0.cs" />
     <Compile Include="Assets\Scripts\EnemyScripts\enemyHealth_2.0.cs" />
     <Compile Include="Assets\Scripts\EnemyScripts\ESpawner 1.cs" />
+    <Compile Include="Assets\Scripts\PlayerScripts\Health\DamageToEnemies.cs" />
+    <Compile Include="Assets\Scripts\PlayerScripts\Health\playerHealth.cs" />
     <Compile Include="Assets\Scripts\EnemyScripts\enemyHealth.cs" />
     <Compile Include="Assets\2D Space Kit\Scripts\CustomPointer.cs" />
     <Compile Include="Assets\Scripts\GameScripts\GameManagerScript.cs" />
