@@ -64,6 +64,7 @@
     <Compile Include="Assets\2D Space Kit\Scripts\PSDestroy.cs" />
     <Compile Include="Assets\Scripts\GameScripts\ScoreManager.cs" />
     <Compile Include="Assets\Scripts\EnemyScripts\Damage.cs" />
+    <Compile Include="Assets\Scripts\GameScripts\ExpManager.cs" />
     <Compile Include="Assets\Scripts\GameScripts\MainMenuController.cs" />
     <Compile Include="Assets\2D Space Kit\Scripts\Crosshair.cs" />
     <Compile Include="Assets\Scripts\EnemyScripts\eBullet_2.1.cs" />
@@ -77,8 +78,11 @@
     <Compile Include="Assets\Scripts\GameScripts\ParticleDeletion.cs" />
     <Compile Include="Assets\2D Space Kit\Scripts\ParallaxLayer.cs" />
     <Compile Include="Assets\Scripts\EnemyScripts\Bullet_2.1.cs" />
+<<<<<<< HEAD
     <Compile Include="Assets\Scripts\PlayerScripts\Health\Heal.cs" />
     <Compile Include="Assets\Scripts\ExpScripts\ExpManager.cs" />
+=======
+>>>>>>> main
     <Compile Include="Assets\2D Space Kit\Scripts\ShipCamera.cs" />
     <Compile Include="Assets\2D Space Kit\Scripts\PlayerControlledTurret.cs" />
     <Compile Include="Assets\Scripts\GameScripts\GameOverScreenScript.cs" />
