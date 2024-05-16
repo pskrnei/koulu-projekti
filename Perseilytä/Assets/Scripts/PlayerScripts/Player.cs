@@ -13,7 +13,7 @@ public class Player : MonoBehaviour
     [SerializeField] private GameObject bulletPrefab;
     [SerializeField] private Transform firingPoint;
     [Range(0.1f, 1f)]
-    [SerializeField] private float fireRate = 0.5f;
+    [SerializeField] public float fireRate = 1f;
 
     private Rigidbody2D rb;
     private float mx;
@@ -38,9 +38,13 @@ public class Player : MonoBehaviour
                                               210, 220, 230, 240, 250, 260, 270, 280, 290, 300, // 21 - 30
                                               310, 320, 330, 340, 350, 360, 370, 380, 390, 400, // 31 - 40
                                               410, 420, 430, 440, 450, 460, 470, 480, 490, 500};// 41 - 50
+    
+    
     [SerializeField] int level = 1;
     public Image expBar;
     [SerializeField] private float fillSpeed = 5f; // fillspeed palkin sulavuuteen
+    [SerializeField] GameObject powerUpMenu;
+
 
     // Start is called before the first frame update
     private void Start()
@@ -54,15 +58,8 @@ public class Player : MonoBehaviour
         // exp bar koodi
         float targetFillAmount = Mathf.Clamp(currentExp / expToNextLevel[level - 1], 0f, 1f);
         expBar.fillAmount = Mathf.Lerp(expBar.fillAmount, targetFillAmount, Time.deltaTime * fillSpeed); // noin palkin saa liikkumaan sulavasti
-
-        if (currentExp >= expToNextLevel[level - 1])
-        {
-            audioSource.PlayOneShot(levelUpAudioClip);
-            currentExp = 0;
-            level++;
-        }
-
-
+        levelUp();
+        
 
         if (Input.GetMouseButton(0) && fireTimer <= 0f)
         {
@@ -79,6 +76,19 @@ public class Player : MonoBehaviour
     private void FixedUpdate()
     {
         rb.velocity = new Vector2(mx, my).normalized * speed;
+    }
+
+
+    private void levelUp()
+    {
+     if (currentExp >= expToNextLevel[level - 1])
+            {
+                Time.timeScale = 0;
+                audioSource.PlayOneShot(levelUpAudioClip);
+                currentExp = 0;
+                level++;
+                powerUpMenu.SetActive(true);
+            }
     }
 
 

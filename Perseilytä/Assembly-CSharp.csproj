@@ -83,6 +83,7 @@
     <Compile Include="Assets\2D Space Kit\Scripts\PlayerControlledTurret.cs" />
     <Compile Include="Assets\Scripts\GameScripts\GameOverScreenScript.cs" />
     <Compile Include="Assets\Scripts\PlayerScripts\StatusBarHealth.cs" />
+    <Compile Include="Assets\Scripts\GameScripts\PowerUpMenuController.cs" />
     <Compile Include="Assets\Scripts\EnemyScripts\Enemy.cs" />
     <Compile Include="Assets\2D Space Kit\Scripts\ExampleShipControl.cs" />
     <Compile Include="Assets\Scripts\GameScripts\PauseMenuScript.cs" />
