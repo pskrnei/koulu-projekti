@@ -60,17 +60,16 @@
     <Analyzer Include="C:\Program Files\Unity\Hub\Editor\2022.3.22f1\Editor\Data\Tools\Unity.SourceGenerators\Unity.Properties.SourceGenerator.dll" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\Scripts\BulletNoPush.cs" />
     <Compile Include="Assets\2D Space Kit\Scripts\PSDestroy.cs" />
     <Compile Include="Assets\Scripts\GameScripts\ScoreManager.cs" />
     <Compile Include="Assets\Scripts\EnemyScripts\Damage.cs" />
-    <Compile Include="Assets\Scripts\GameScripts\ExpManager.cs" />
     <Compile Include="Assets\Scripts\GameScripts\MainMenuController.cs" />
     <Compile Include="Assets\2D Space Kit\Scripts\Crosshair.cs" />
     <Compile Include="Assets\Scripts\EnemyScripts\eBullet_2.1.cs" />
     <Compile Include="Assets\Scripts\PlayerScripts\TopDownMovement.cs" />
     <Compile Include="Assets\Scripts\PlayerScripts\Rajat 2.cs" />
     <Compile Include="Assets\2D Space Kit\Scripts\AimBeam.cs" />
-    <Compile Include="Assets\Scripts\PlayerScripts\playerHealth.cs" />
     <Compile Include="Assets\2D Space Kit\Scripts\Projectile.cs" />
     <Compile Include="Assets\Scripts\EnemyScripts\ShootingEnemy.cs" />
     <Compile Include="Assets\Scripts\PlayerScripts\PlayerMovement.cs" />
@@ -78,8 +77,9 @@
     <Compile Include="Assets\Scripts\GameScripts\ParticleDeletion.cs" />
     <Compile Include="Assets\2D Space Kit\Scripts\ParallaxLayer.cs" />
     <Compile Include="Assets\Scripts\EnemyScripts\Bullet_2.1.cs" />
+    <Compile Include="Assets\Scripts\PlayerScripts\Health\Heal.cs" />
+    <Compile Include="Assets\Scripts\ExpScripts\ExpManager.cs" />
     <Compile Include="Assets\2D Space Kit\Scripts\ShipCamera.cs" />
-    <Compile Include="Assets\Scripts\PlayerScripts\DamageToEnemies.cs" />
     <Compile Include="Assets\2D Space Kit\Scripts\PlayerControlledTurret.cs" />
     <Compile Include="Assets\Scripts\GameScripts\GameOverScreenScript.cs" />
     <Compile Include="Assets\Scripts\PlayerScripts\StatusBarHealth.cs" />
@@ -90,6 +90,8 @@
     <Compile Include="Assets\Scripts\PlayerScripts\Bullet_2.0.cs" />
     <Compile Include="Assets\Scripts\EnemyScripts\enemyHealth_2.0.cs" />
     <Compile Include="Assets\Scripts\EnemyScripts\ESpawner 1.cs" />
+    <Compile Include="Assets\Scripts\PlayerScripts\Health\DamageToEnemies.cs" />
+    <Compile Include="Assets\Scripts\PlayerScripts\Health\playerHealth.cs" />
     <Compile Include="Assets\Scripts\EnemyScripts\enemyHealth.cs" />
     <Compile Include="Assets\2D Space Kit\Scripts\CustomPointer.cs" />
     <Compile Include="Assets\Scripts\GameScripts\GameManagerScript.cs" />
@@ -468,6 +470,26 @@
     </Reference>
     <Reference Include="Mono.Data.Sqlite">
       <HintPath>Assets\Plugins\Mono.Data.Sqlite.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEditor.iOS.Extensions.Xcode">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2022.3.22f1\Editor\Data\PlaybackEngines\iOSSupport\UnityEditor.iOS.Extensions.Xcode.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEditor.iOS.Extensions.Common">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2022.3.22f1\Editor\Data\PlaybackEngines\iOSSupport\UnityEditor.iOS.Extensions.Common.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.Android.Types">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2022.3.22f1\Editor\Data\PlaybackEngines\AndroidPlayer\Unity.Android.Types.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.Android.Gradle">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2022.3.22f1\Editor\Data\PlaybackEngines\AndroidPlayer\Unity.Android.Gradle.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.Android.GradleProject">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2022.3.22f1\Editor\Data\PlaybackEngines\AndroidPlayer\Unity.Android.GradleProject.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="netstandard">

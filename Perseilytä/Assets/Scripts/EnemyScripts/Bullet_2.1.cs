@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class eBullet_ : MonoBehaviour
 {
-    public EnemyHealth pHealth;
+    public playerHealth pHealth;
     public float damage = 1f;
 
     [Range(1, 10)]
