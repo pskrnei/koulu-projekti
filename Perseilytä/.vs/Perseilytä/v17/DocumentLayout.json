@@ -40,7 +40,7 @@
               "RelativeDocumentMoniker": "Assets\\Scripts\\GameScripts\\PowerUpMenuController.cs",
               "ToolTip": "D:\\GitHub\\koulu-projekti\\koulu-projekti\\Perseilyt\u00E4\\Assets\\Scripts\\GameScripts\\PowerUpMenuController.cs",
               "RelativeToolTip": "Assets\\Scripts\\GameScripts\\PowerUpMenuController.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAADYAAAAAAAAA",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAAAgAAAAqAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-05-16T14:34:47.594Z",
               "EditorCaption": ""
@@ -55,8 +55,7 @@
               "RelativeToolTip": "Assets\\Scripts\\PlayerScripts\\Player.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-01T15:43:42.962Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-01T15:43:42.962Z"
             },
             {
               "$type": "Document",
@@ -68,8 +67,7 @@
               "RelativeToolTip": "Assets\\Scripts\\ExpScripts\\ExpManager.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABUAAABFAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-16T11:56:10.406Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-16T11:56:10.406Z"
             },
             {
               "$type": "Document",
@@ -81,8 +79,7 @@
               "RelativeToolTip": "Assets\\Scripts\\PlayerScripts\\Health\\playerHealth.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAACMAAABBAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-16T11:52:12.58Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-16T11:52:12.58Z"
             }
           ]
         }
