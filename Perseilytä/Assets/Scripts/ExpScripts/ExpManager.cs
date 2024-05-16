@@ -19,7 +19,7 @@ public class ExpManager : MonoBehaviour
         if (collision.gameObject.CompareTag("Player"))
         {
             AudioSource.PlayClipAtPoint(collectGemClip, transform.position, 0.3f); // float lopussa s‰‰t‰‰ volumea
-            collision.gameObject.GetComponent<Player>().currentExp =+ Exp;
+            collision.gameObject.GetComponent<Player>().currentExp += Exp;
             Destroy(gameObject);
         }
     }
