@@ -212,7 +212,7 @@ RectTransform:
   m_GameObject: {fileID: 62513377}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 15.934369, y: 40.452423, z: 15.934369}
+  m_LocalScale: {x: 12.412873, y: 31.512438, z: 12.412873}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 1236934657}
@@ -220,7 +220,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.50416666, y: 0.5}
-  m_AnchoredPosition: {x: -10, y: -374.9}
+  m_AnchoredPosition: {x: -10, y: -296.7}
   m_SizeDelta: {x: 152, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &62513379
@@ -266,7 +266,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 62513380}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 395033627}
+        m_TargetAssemblyTypeName: PowerUpMenuController, Assembly-CSharp
+        m_MethodName: buffHP
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &62513380
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -771,7 +783,7 @@ RectTransform:
   m_GameObject: {fileID: 111041488}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 15.934369, y: 40.452423, z: 15.934369}
+  m_LocalScale: {x: 12.412873, y: 31.512438, z: 12.412873}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 65756801}
@@ -779,7 +791,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.50416666, y: 0.5}
-  m_AnchoredPosition: {x: -10, y: -71}
+  m_AnchoredPosition: {x: -10, y: -19.7}
   m_SizeDelta: {x: 152, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &111041490
@@ -825,7 +837,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 111041491}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 395033627}
+        m_TargetAssemblyTypeName: PowerUpMenuController, Assembly-CSharp
+        m_MethodName: buffFirerate
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &111041491
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1312,8 +1336,9 @@ GameObject:
   m_Component:
   - component: {fileID: 395033626}
   - component: {fileID: 395033625}
+  - component: {fileID: 395033627}
   m_Layer: 0
-  m_Name: PauseManager
+  m_Name: inGameManager
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1347,6 +1372,23 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &395033627
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 395033624}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 066083c058d23604e981fc0be4ee820c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  powerUpMenu: {fileID: 1402290731}
+  fireRateBuff: 0.1
+  damageBuff: 0
+  bulletBuff: 0
+  hpGiven: 0
 --- !u!1 &397685509
 GameObject:
   m_ObjectHideFlags: 0
@@ -2556,7 +2598,7 @@ RectTransform:
   m_GameObject: {fileID: 613317349}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 15.934369, y: 40.452423, z: 15.934369}
+  m_LocalScale: {x: 12.412873, y: 31.512438, z: 12.412873}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 1761358324}
@@ -2564,7 +2606,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.50416666, y: 0.5}
-  m_AnchoredPosition: {x: -10, y: -71}
+  m_AnchoredPosition: {x: -10, y: -34}
   m_SizeDelta: {x: 152, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &613317351
@@ -2610,7 +2652,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 613317352}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 395033627}
+        m_TargetAssemblyTypeName: PowerUpMenuController, Assembly-CSharp
+        m_MethodName: buffDamage
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &613317352
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -9415,7 +9469,7 @@ MonoBehaviour:
   speed: 10
   bulletPrefab: {fileID: 1813531732695697806, guid: e08cce30c2967594d9af83035438c39a, type: 3}
   firingPoint: {fileID: 1433573679}
-  fireRate: 0.1
+  fireRate: 0.2
   audioSource: {fileID: 1433573685}
   shootingAudioClip: {fileID: 8300000, guid: cb86d092a59393244bc6de304a40436a, type: 3}
   levelUpAudioClip: {fileID: 8300000, guid: 6a66d203c0bd0ec42a4333575e8643bc, type: 3}
@@ -9424,6 +9478,7 @@ MonoBehaviour:
   level: 1
   expBar: {fileID: 1097466596}
   fillSpeed: 5
+  powerUpMenu: {fileID: 1402290731}
   playerSprite: {fileID: 1433573678}
 --- !u!114 &1433573682
 MonoBehaviour:
@@ -11220,7 +11275,7 @@ RectTransform:
   m_GameObject: {fileID: 1893639624}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 15.934369, y: 40.452423, z: 15.934369}
+  m_LocalScale: {x: 12.412873, y: 31.512438, z: 12.412873}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 894587415}
@@ -11228,7 +11283,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.50416666, y: 0.5}
-  m_AnchoredPosition: {x: -10, y: -374.9}
+  m_AnchoredPosition: {x: -10, y: -281.4}
   m_SizeDelta: {x: 152, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1893639626
@@ -11274,7 +11329,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1893639627}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 395033627}
+        m_TargetAssemblyTypeName: PowerUpMenuController, Assembly-CSharp
+        m_MethodName: buffBullets
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1893639627
 MonoBehaviour:
   m_ObjectHideFlags: 0

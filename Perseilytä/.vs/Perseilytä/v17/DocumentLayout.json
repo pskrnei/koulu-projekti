@@ -3,28 +3,20 @@
   "WorkspaceRootPath": "D:\\GitHub\\koulu-projekti\\koulu-projekti\\Perseilyt\u00E4\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{509D93C8-DFAA-9411-6B2B-28F08D40170B}|Assembly-CSharp.csproj|D:\\GitHub\\koulu-projekti\\koulu-projekti\\Perseilyt\u00E4\\assets\\scripts\\playerscripts\\health\\heal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{509D93C8-DFAA-9411-6B2B-28F08D40170B}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\playerscripts\\health\\heal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{509D93C8-DFAA-9411-6B2B-28F08D40170B}|Assembly-CSharp.csproj|d:\\github\\koulu-projekti\\koulu-projekti\\perseilyt\u00E4\\assets\\scripts\\gamescripts\\scoremanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{509D93C8-DFAA-9411-6B2B-28F08D40170B}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\gamescripts\\scoremanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{509D93C8-DFAA-9411-6B2B-28F08D40170B}|Assembly-CSharp.csproj|D:\\GitHub\\koulu-projekti\\koulu-projekti\\Perseilyt\u00E4\\assets\\scripts\\playerscripts\\health\\playerhealth.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{509D93C8-DFAA-9411-6B2B-28F08D40170B}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\playerscripts\\health\\playerhealth.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{509D93C8-DFAA-9411-6B2B-28F08D40170B}|Assembly-CSharp.csproj|d:\\github\\koulu-projekti\\koulu-projekti\\perseilyt\u00E4\\assets\\scripts\\enemyscripts\\damage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{509D93C8-DFAA-9411-6B2B-28F08D40170B}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\enemyscripts\\damage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{509D93C8-DFAA-9411-6B2B-28F08D40170B}|Assembly-CSharp.csproj|d:\\github\\koulu-projekti\\koulu-projekti\\perseilyt\u00E4\\assets\\scripts\\expscripts\\expmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{509D93C8-DFAA-9411-6B2B-28F08D40170B}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\expscripts\\expmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{509D93C8-DFAA-9411-6B2B-28F08D40170B}|Assembly-CSharp.csproj|d:\\github\\koulu-projekti\\koulu-projekti\\perseilyt\u00E4\\assets\\scripts\\gamescripts\\powerupmenucontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{509D93C8-DFAA-9411-6B2B-28F08D40170B}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\gamescripts\\powerupmenucontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{509D93C8-DFAA-9411-6B2B-28F08D40170B}|Assembly-CSharp.csproj|D:\\GitHub\\koulu-projekti\\koulu-projekti\\Perseilyt\u00E4\\assets\\scripts\\playerscripts\\player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{509D93C8-DFAA-9411-6B2B-28F08D40170B}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\playerscripts\\player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{509D93C8-DFAA-9411-6B2B-28F08D40170B}|Assembly-CSharp.csproj|D:\\GitHub\\koulu-projekti\\koulu-projekti\\Perseilyt\u00E4\\assets\\scripts\\expscripts\\expmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{509D93C8-DFAA-9411-6B2B-28F08D40170B}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\expscripts\\expmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{509D93C8-DFAA-9411-6B2B-28F08D40170B}|Assembly-CSharp.csproj|D:\\GitHub\\koulu-projekti\\koulu-projekti\\Perseilyt\u00E4\\assets\\scripts\\playerscripts\\health\\playerhealth.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{509D93C8-DFAA-9411-6B2B-28F08D40170B}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\playerscripts\\health\\playerhealth.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -34,28 +26,41 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Bookmark",
-              "Name": "ST:0:0:{1c64b9c2-e352-428e-a56d-0ace190b99a6}"
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Damage.cs",
-              "DocumentMoniker": "D:\\GitHub\\koulu-projekti\\koulu-projekti\\Perseilyt\u00E4\\Assets\\Scripts\\EnemyScripts\\Damage.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\EnemyScripts\\Damage.cs",
-              "ToolTip": "D:\\GitHub\\koulu-projekti\\koulu-projekti\\Perseilyt\u00E4\\Assets\\Scripts\\EnemyScripts\\Damage.cs",
-              "RelativeToolTip": "Assets\\Scripts\\EnemyScripts\\Damage.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABwAAABmAAAA",
+              "DocumentIndex": 0,
+              "Title": "PowerUpMenuController.cs",
+              "DocumentMoniker": "D:\\GitHub\\koulu-projekti\\koulu-projekti\\Perseilyt\u00E4\\Assets\\Scripts\\GameScripts\\PowerUpMenuController.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\GameScripts\\PowerUpMenuController.cs",
+              "ToolTip": "D:\\GitHub\\koulu-projekti\\koulu-projekti\\Perseilyt\u00E4\\Assets\\Scripts\\GameScripts\\PowerUpMenuController.cs",
+              "RelativeToolTip": "Assets\\Scripts\\GameScripts\\PowerUpMenuController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAADYAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-16T13:13:20.254Z",
+              "WhenOpened": "2024-05-16T14:34:47.594Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 1,
+              "Title": "Player.cs",
+              "DocumentMoniker": "D:\\GitHub\\koulu-projekti\\koulu-projekti\\Perseilyt\u00E4\\Assets\\Scripts\\PlayerScripts\\Player.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\PlayerScripts\\Player.cs",
+              "ToolTip": "D:\\GitHub\\koulu-projekti\\koulu-projekti\\Perseilyt\u00E4\\Assets\\Scripts\\PlayerScripts\\Player.cs",
+              "RelativeToolTip": "Assets\\Scripts\\PlayerScripts\\Player.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-01T15:43:42.962Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "ExpManager.cs",
               "DocumentMoniker": "D:\\GitHub\\koulu-projekti\\koulu-projekti\\Perseilyt\u00E4\\Assets\\Scripts\\ExpScripts\\ExpManager.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\ExpScripts\\ExpManager.cs",
@@ -68,7 +73,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "playerHealth.cs",
               "DocumentMoniker": "D:\\GitHub\\koulu-projekti\\koulu-projekti\\Perseilyt\u00E4\\Assets\\Scripts\\PlayerScripts\\Health\\playerHealth.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\PlayerScripts\\Health\\playerHealth.cs",
@@ -77,48 +82,6 @@
               "ViewState": "AQIAAAAAAAAAAAAAAAAAACMAAABBAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-05-16T11:52:12.58Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Player.cs",
-              "DocumentMoniker": "D:\\GitHub\\koulu-projekti\\koulu-projekti\\Perseilyt\u00E4\\Assets\\Scripts\\PlayerScripts\\Player.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\PlayerScripts\\Player.cs",
-              "ToolTip": "D:\\GitHub\\koulu-projekti\\koulu-projekti\\Perseilyt\u00E4\\Assets\\Scripts\\PlayerScripts\\Player.cs",
-              "RelativeToolTip": "Assets\\Scripts\\PlayerScripts\\Player.cs",
-              "ViewState": "AQIAABQAAAAAAAAAAAAQwEAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-01T15:43:42.962Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Heal.cs",
-              "DocumentMoniker": "D:\\GitHub\\koulu-projekti\\koulu-projekti\\Perseilyt\u00E4\\Assets\\Scripts\\PlayerScripts\\Health\\Heal.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\PlayerScripts\\Health\\Heal.cs",
-              "ToolTip": "D:\\GitHub\\koulu-projekti\\koulu-projekti\\Perseilyt\u00E4\\Assets\\Scripts\\PlayerScripts\\Health\\Heal.cs",
-              "RelativeToolTip": "Assets\\Scripts\\PlayerScripts\\Health\\Heal.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABYAAAAFAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-16T11:51:02.189Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "ScoreManager.cs",
-              "DocumentMoniker": "D:\\GitHub\\koulu-projekti\\koulu-projekti\\Perseilyt\u00E4\\Assets\\Scripts\\GameScripts\\ScoreManager.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\GameScripts\\ScoreManager.cs",
-              "ToolTip": "D:\\GitHub\\koulu-projekti\\koulu-projekti\\Perseilyt\u00E4\\Assets\\Scripts\\GameScripts\\ScoreManager.cs",
-              "RelativeToolTip": "Assets\\Scripts\\GameScripts\\ScoreManager.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAACIAAAAJAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-16T13:32:53.032Z",
               "EditorCaption": ""
             }
           ]
