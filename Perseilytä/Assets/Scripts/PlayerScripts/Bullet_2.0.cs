@@ -5,7 +5,7 @@ using UnityEngine;
 public class Bullet_ : MonoBehaviour
 {
     public EnemyHealth pHealth;
-    public float damage = 1f;
+    public float damage;
 
     [Range(1, 10)]
     [SerializeField] private float speed = 20f;
@@ -38,9 +38,11 @@ public class Bullet_ : MonoBehaviour
             other.gameObject.GetComponent<EnemyHealth>().health -= damage;
             Destroy(gameObject);
         }
+    }
 
-        
-
+    public void initializeDamage(float damageAmount) // Damage powerUppia varten
+    {
+        damage = damageAmount;
     }
 
     

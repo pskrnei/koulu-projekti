@@ -986,7 +986,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   powerUpMenu: {fileID: 1402290731}
   fireRateBuff: 0.1
-  damageBuff: 0
+  damageBuff: 1
   bulletBuff: 0
   hpGiven: 0
 --- !u!1 &397685509
@@ -9470,6 +9470,7 @@ MonoBehaviour:
   bulletPrefab: {fileID: 1813531732695697806, guid: e08cce30c2967594d9af83035438c39a, type: 3}
   firingPoint: {fileID: 1433573679}
   fireRate: 0.2
+  bulletDamage: 1
   audioSource: {fileID: 1433573685}
   shootingAudioClip: {fileID: 8300000, guid: cb86d092a59393244bc6de304a40436a, type: 3}
   levelUpAudioClip: {fileID: 8300000, guid: 6a66d203c0bd0ec42a4333575e8643bc, type: 3}
