@@ -5,6 +5,7 @@ using UnityEngine;
 public class eBullet_ : MonoBehaviour
 {
     public playerHealth pHealth;
+    public PlayerShield pShield;
     public float damage = 1f;
 
     [Range(1, 10)]
@@ -32,7 +33,16 @@ public class eBullet_ : MonoBehaviour
     {
         if (other.gameObject.CompareTag("Player"))
         {
-            other.gameObject.GetComponent<playerHealth>().health -= damage;
+            if (other.gameObject.GetComponent<PlayerShield>().shield > 0)
+            {
+                other.gameObject.GetComponent<PlayerShield>().shield -= damage;
+            }
+
+            else if (other.gameObject.GetComponent<PlayerShield>().shield <= 0)
+            {
+                other.gameObject.GetComponent<playerHealth>().health -= damage;
+            }
+            //other.gameObject.GetComponent<playerHealth>().health -= damage;
             Destroy(gameObject);
         }
 

@@ -13,6 +13,10 @@ public class EnemyHealth : MonoBehaviour
     public float health;
     public float maxHealth = 100f;
 
+    //LootTabel
+    [Header("Loot")]
+    public List<LootItem> lootTable = new List<LootItem>();
+
     //lisä
     private Rigidbody2D rb;
 
@@ -41,10 +45,29 @@ public class EnemyHealth : MonoBehaviour
 
     public void DestroyEnemy()
     {
+        //Spawn items
+        foreach (LootItem lootItem in lootTable)
+        {
+            if (Random.Range(0f, 100f) <= lootItem.dropChance)
+            {
+                InstantiateLoot(lootItem.itemPrefab);
+            }
+            break;
+        }
+
         Instantiate(deathParticles, transform.position, Quaternion.identity);
         Instantiate(ExpGem, transform.position, Quaternion.identity);
         Destroy(gameObject);
         
+    }
+
+    void InstantiateLoot(GameObject loot)
+    {
+        if (loot)
+        {
+            GameObject droppedLoot = Instantiate(loot, transform.position, Quaternion.identity);
+        }
+
     }
 
 }
