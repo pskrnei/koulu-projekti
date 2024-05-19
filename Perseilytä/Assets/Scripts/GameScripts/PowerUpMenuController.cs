@@ -7,13 +7,16 @@ public class PowerUpMenuController : MonoBehaviour
 
     [SerializeField] GameObject powerUpMenu;
     [SerializeField] float fireRateBuff = 0.1f;
-    [SerializeField] float damageBuff;
+    [SerializeField] float damageBuff = 2f;
     [SerializeField] float bulletBuff;
     [SerializeField] float hpGiven;
 
+    private Player player;
+
     private void Start()
     {
-     //   Player player= GetComponent<Player>();
+        GameObject playerObject = GameObject.Find("Player");
+        player = playerObject.GetComponent<Player>();
     }
 
 
@@ -34,7 +37,7 @@ public class PowerUpMenuController : MonoBehaviour
 
     public void buffDamage()
     {
-        gameObject.GetComponent<Player>().fireRate -= fireRateBuff;
+        player.bulletDamage += damageBuff;
         powerUpMenu.SetActive(false);
         Time.timeScale = 1;
     }

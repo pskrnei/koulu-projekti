@@ -10,10 +10,10 @@ public class Player : MonoBehaviour
     [SerializeField] private float speed = 10f;
 
     //Bullet variables
-    [SerializeField] private GameObject bulletPrefab;
+    [SerializeField] public GameObject bulletPrefab;
     [SerializeField] private Transform firingPoint;
-    [Range(0.1f, 1f)]
     [SerializeField] public float fireRate = 1f;
+    public float bulletDamage = 2f;
 
     private Rigidbody2D rb;
     private float mx;
@@ -43,13 +43,16 @@ public class Player : MonoBehaviour
     [SerializeField] int level = 1;
     public Image expBar;
     [SerializeField] private float fillSpeed = 5f; // fillspeed palkin sulavuuteen
+    
     [SerializeField] GameObject powerUpMenu;
+    private Player player;
 
 
     // Start is called before the first frame update
     private void Start()
     {
         rb = GetComponent<Rigidbody2D>();
+        player = GetComponent<Player>();
     }
 
     // Update is called once per frame
@@ -96,10 +99,13 @@ public class Player : MonoBehaviour
     {
         audioSource.PlayOneShot(shootingAudioClip);
         // audioSource.pitch = UnityEngine.Random.Range(1.8f, 2f);  aanen randomointiin, mutta toi rikkoo levelup soundin pitchin
-        Instantiate(bulletPrefab, firingPoint.position, firingPoint.rotation);
+        
+        GameObject Bullet = Instantiate(bulletPrefab, firingPoint.position, firingPoint.rotation);
+        Bullet_ bulletScript = Bullet.GetComponent<Bullet_>();
+        bulletScript.initializeDamage(player.bulletDamage);
     }
 
-
+    
     //valahdyskoodi
     public SpriteRenderer playerSprite;
 
