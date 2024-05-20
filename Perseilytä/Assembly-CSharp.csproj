@@ -64,6 +64,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\Scripts\BulletNoPush.cs" />
+    <Compile Include="Assets\Scripts\PlayerScripts\Health\Shield.cs" />
     <Compile Include="Assets\2D Space Kit\Scripts\PSDestroy.cs" />
     <Compile Include="Assets\Scripts\GameScripts\ScoreManager.cs" />
     <Compile Include="Assets\Scripts\EnemyScripts\Damage.cs" />
@@ -78,6 +79,7 @@
     <Compile Include="Assets\Scripts\PlayerScripts\PlayerMovement.cs" />
     <Compile Include="Assets\Scripts\PlayerScripts\Player.cs" />
     <Compile Include="Assets\Scripts\GameScripts\ParticleDeletion.cs" />
+    <Compile Include="Assets\Scripts\RandomDrop\LootItem.cs" />
     <Compile Include="Assets\2D Space Kit\Scripts\ParallaxLayer.cs" />
     <Compile Include="Assets\Scripts\EnemyScripts\Bullet_2.1.cs" />
     <Compile Include="Assets\Scripts\PlayerScripts\Health\Heal.cs" />
@@ -85,6 +87,7 @@
     <Compile Include="Assets\2D Space Kit\Scripts\ShipCamera.cs" />
     <Compile Include="Assets\2D Space Kit\Scripts\PlayerControlledTurret.cs" />
     <Compile Include="Assets\Scripts\GameScripts\GameOverScreenScript.cs" />
+    <Compile Include="Assets\Scripts\PlayerScripts\PlayerShield.cs" />
     <Compile Include="Assets\Scripts\PlayerScripts\StatusBarHealth.cs" />
     <Compile Include="Assets\Scripts\GameScripts\PowerUpMenuController.cs" />
     <Compile Include="Assets\Scripts\EnemyScripts\Enemy.cs" />
@@ -474,6 +477,18 @@
     </Reference>
     <Reference Include="Mono.Data.Sqlite">
       <HintPath>Assets\Plugins\Mono.Data.Sqlite.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.Android.Types">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2022.3.22f1\Editor\Data\PlaybackEngines\AndroidPlayer\Unity.Android.Types.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.Android.Gradle">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2022.3.22f1\Editor\Data\PlaybackEngines\AndroidPlayer\Unity.Android.Gradle.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.Android.GradleProject">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2022.3.22f1\Editor\Data\PlaybackEngines\AndroidPlayer\Unity.Android.GradleProject.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="netstandard">
