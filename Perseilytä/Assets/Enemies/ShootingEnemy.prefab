@@ -149,6 +149,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   pHealth: {fileID: 0}
+  pShield: {fileID: 0}
   damage: 5
 --- !u!50 &5835163113938712498
 Rigidbody2D:
@@ -218,6 +219,9 @@ MonoBehaviour:
   ScoreManager: {fileID: 0}
   health: 2
   maxHealth: 2
+  lootTable:
+  - itemPrefab: {fileID: 3431970006394526029, guid: e86e040be9cd7c440a57d004765f237e, type: 3}
+    dropChance: 50
   deathParticles: {fileID: 7359565601134754673, guid: 2750f35d102014847b57e91b2861dbee, type: 3}
 --- !u!82 &7055963276923051986
 AudioSource:

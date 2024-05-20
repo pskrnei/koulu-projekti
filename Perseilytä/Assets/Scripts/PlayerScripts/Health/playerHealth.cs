@@ -6,10 +6,13 @@ using UnityEngine.UI;
 
 public class playerHealth : MonoBehaviour
 {
+
+    //Hp
     public float health;
     public float maxHealth;
     public Image healthBar;
-    private float fillSpeed = 5f; // healthbarin sulavaan liikkumiseen
+    private float fillSpeed = 5f; // healthbarin/shieldin sulavaan liikkumiseen
+
 
     private bool isDead; //gameover UI juttu
 
