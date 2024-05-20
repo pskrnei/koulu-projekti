@@ -6,7 +6,7 @@ using UnityEngine.UI;
 
 public class playerHealth : MonoBehaviour
 {
-
+    public PlayerShield pShield;
     //Hp
     public float health;
     public float maxHealth;
@@ -31,7 +31,7 @@ public class playerHealth : MonoBehaviour
         healthBar.fillAmount = Mathf.Lerp(healthBar.fillAmount, targetFillAmount, Time.deltaTime * fillSpeed); // sulavasti liikkuva palkki
 
 
-        if (health <= 0 && !isDead)
+        if (health <= 0 && !isDead && gameObject.GetComponent<PlayerShield>().shield <= 0)
         {
             isDead = true;
             GameManagerScript.instance.gameOver();
