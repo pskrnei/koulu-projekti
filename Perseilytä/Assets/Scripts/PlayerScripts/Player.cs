@@ -47,6 +47,10 @@ public class Player : MonoBehaviour
     [SerializeField] GameObject powerUpMenu;
     private Player player;
 
+    private bool doubleShot = false; // luotien määrä päivityksien booleanit
+    private bool tripleShot = false;
+    private bool quadrupleShot = false;  
+
 
     // Start is called before the first frame update
     private void Start()
@@ -100,9 +104,54 @@ public class Player : MonoBehaviour
         audioSource.PlayOneShot(shootingAudioClip);
         // audioSource.pitch = UnityEngine.Random.Range(1.8f, 2f);  aanen randomointiin, mutta toi rikkoo levelup soundin pitchin
         
-        GameObject Bullet = Instantiate(bulletPrefab, firingPoint.position, firingPoint.rotation);
-        Bullet_ bulletScript = Bullet.GetComponent<Bullet_>();
-        bulletScript.initializeDamage(player.bulletDamage);
+        // rumasti luotipäivitykset, mutta se toimii.
+        if (quadrupleShot)
+        {
+            Vector3 offset = new Vector3(0.3f, 0, 0); // Adjust offset as needed
+            Vector3 offset4 = new Vector3(0.15f, 0, 0); // offset neljälle luodille
+            GameObject bullet1 = Instantiate(bulletPrefab, firingPoint.position + offset, firingPoint.rotation);
+            GameObject bullet2 = Instantiate(bulletPrefab, firingPoint.position - offset, firingPoint.rotation);
+            GameObject bullet3 = Instantiate(bulletPrefab, firingPoint.position + offset4, firingPoint.rotation);
+            GameObject bullet4 = Instantiate(bulletPrefab, firingPoint.position - offset4, firingPoint.rotation);
+            Bullet_ bulletScript1 = bullet1.GetComponent<Bullet_>();
+            Bullet_ bulletScript2 = bullet2.GetComponent<Bullet_>();
+            Bullet_ bulletScript3 = bullet3.GetComponent<Bullet_>();
+            Bullet_ bulletScript4 = bullet4.GetComponent<Bullet_>();
+            bulletScript1.initializeDamage(player.bulletDamage);
+            bulletScript2.initializeDamage(player.bulletDamage);
+            bulletScript3.initializeDamage(player.bulletDamage);
+            bulletScript4.initializeDamage(player.bulletDamage);
+        }
+        else if (tripleShot)
+        {
+            Vector3 offset = new Vector3(0.3f, 0, 0); // Adjust offset as needed
+            GameObject bullet1 = Instantiate(bulletPrefab, firingPoint.position + offset, firingPoint.rotation);
+            GameObject bullet2 = Instantiate(bulletPrefab, firingPoint.position - offset, firingPoint.rotation);
+            GameObject bullet3 = Instantiate(bulletPrefab, firingPoint.position, firingPoint.rotation);
+            Bullet_ bulletScript1 = bullet1.GetComponent<Bullet_>();
+            Bullet_ bulletScript2 = bullet2.GetComponent<Bullet_>();
+            Bullet_ bulletScript3 = bullet3.GetComponent<Bullet_>();
+            bulletScript1.initializeDamage(player.bulletDamage);
+            bulletScript2.initializeDamage(player.bulletDamage);
+            bulletScript3.initializeDamage(player.bulletDamage);
+        }  
+        else if (doubleShot)
+        {
+            Vector3 offset = new Vector3(0.2f, 0, 0); // Adjust offset as needed
+            GameObject bullet1 = Instantiate(bulletPrefab, firingPoint.position + offset, firingPoint.rotation);
+            GameObject bullet2 = Instantiate(bulletPrefab, firingPoint.position - offset, firingPoint.rotation);
+            Bullet_ bulletScript1 = bullet1.GetComponent<Bullet_>();
+            Bullet_ bulletScript2 = bullet2.GetComponent<Bullet_>();
+            bulletScript1.initializeDamage(player.bulletDamage);
+            bulletScript2.initializeDamage(player.bulletDamage);
+        }
+        else
+        {
+            // yks luoti alussa ja sitte kasvaa ku saa päivityksiä
+            GameObject bullet = Instantiate(bulletPrefab, firingPoint.position, firingPoint.rotation);
+            Bullet_ bulletScript = bullet.GetComponent<Bullet_>();
+            bulletScript.initializeDamage(player.bulletDamage);
+        }
     }
 
     
@@ -123,4 +172,20 @@ public class Player : MonoBehaviour
         yield return new WaitForSeconds(0.1f);
         playerSprite.color = Color.white;
     }
+
+    public void doubleShotActive()
+    {
+        doubleShot = true;
+    }
+    public void tripleShotActive()
+    {
+        doubleShot = false;
+        tripleShot = true;
+    }
+    public void quadrupleShotActive()
+    {
+        tripleShot = false;
+        quadrupleShot = true;
+    }
+
 }
