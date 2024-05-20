@@ -173,16 +173,16 @@ public class Player : MonoBehaviour
         playerSprite.color = Color.white;
     }
 
-    public void doubleShotActive()
+    public void enableDoubleShot()
     {
         doubleShot = true;
     }
-    public void tripleShotActive()
+    public void enableTripleShot()
     {
         doubleShot = false;
         tripleShot = true;
     }
-    public void quadrupleShotActive()
+    public void enableQuadrupleShot()
     {
         tripleShot = false;
         quadrupleShot = true;

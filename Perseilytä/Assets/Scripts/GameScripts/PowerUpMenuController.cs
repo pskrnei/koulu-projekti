@@ -11,6 +11,10 @@ public class PowerUpMenuController : MonoBehaviour
     [SerializeField] float bulletBuff;
     [SerializeField] float hpGiven;
 
+    [SerializeField] int fireRateBuffAmount = 0;
+    [SerializeField] int damageBuffAmount = 0;
+    [SerializeField] int bulletBuffAmount = 0;
+    [SerializeField] int hpBuffAmount = 0;
     private Player player;
 
     private void Start()
@@ -33,6 +37,7 @@ public class PowerUpMenuController : MonoBehaviour
         
         powerUpMenu.SetActive(false);
         Time.timeScale = 1;
+        fireRateBuffAmount++;
     }
 
     public void buffDamage()
@@ -40,13 +45,15 @@ public class PowerUpMenuController : MonoBehaviour
         player.bulletDamage += damageBuff;
         powerUpMenu.SetActive(false);
         Time.timeScale = 1;
+        damageBuffAmount++;
     }
 
     public void buffBullets()
     { 
-        gameObject.GetComponent<Player>().fireRate -= fireRateBuff;
+        player.enableDoubleShot();
         powerUpMenu.SetActive(false);
         Time.timeScale = 1;
+        bulletBuffAmount++;
     }
 
     public void buffHP()
@@ -54,6 +61,7 @@ public class PowerUpMenuController : MonoBehaviour
         gameObject.GetComponent<Player>().fireRate -= fireRateBuff;
         powerUpMenu.SetActive(false);
         Time.timeScale = 1;
+        hpBuffAmount++;
     }
 
 }
