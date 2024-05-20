@@ -212,8 +212,6 @@ MonoBehaviour:
   lootTable:
   - itemPrefab: {fileID: 6699492278096024806, guid: 5ac4897ce0896414a8439b0693f58e86, type: 3}
     dropChance: 50
-  - itemPrefab: {fileID: 3431970006394526029, guid: e86e040be9cd7c440a57d004765f237e, type: 3}
-    dropChance: 50
   deathParticles: {fileID: 7359565601134754673, guid: 2750f35d102014847b57e91b2861dbee, type: 3}
 --- !u!95 &2692195134012811181
 Animator:
