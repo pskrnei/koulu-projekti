@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class PowerUpMenuController : MonoBehaviour
 {
@@ -11,11 +12,14 @@ public class PowerUpMenuController : MonoBehaviour
     [SerializeField] float bulletBuff;
     [SerializeField] float hpGiven;
 
-    [SerializeField] int fireRateBuffAmount = 0;
-    [SerializeField] int damageBuffAmount = 0;
-    [SerializeField] int bulletBuffAmount = 0;
-    [SerializeField] int hpBuffAmount = 0;
+    private int fireRateBuffAmount = 0;
+    private int damageBuffAmount = 0;
+    private int bulletBuffAmount = 0;
+    private int hpBuffAmount = 0;
     private Player player;
+
+    [SerializeField] Button bulletUpgradeButton;
+    [SerializeField] private Text feedbackText;
 
     private void Start()
     {
@@ -50,10 +54,36 @@ public class PowerUpMenuController : MonoBehaviour
 
     public void buffBullets()
     { 
-        player.enableDoubleShot();
+        bulletBuffAmount++;
+        
+        if(bulletBuffAmount >= 3)
+        {
+            bulletUpgradeButton.interactable = false;
+           // feedbackText.Text = "maximum bulletcount upgrade reached";
+        }
+
+        switch (bulletBuffAmount)
+        {
+            case 1:
+            {
+                player.enableDoubleShot();
+                break;
+            }
+            case 2:
+            {
+                player.enableTripleShot();
+                break;
+            }
+            case 3:
+            {
+                player.enableQuadrupleShot();
+                break;
+            }
+        }
+        
         powerUpMenu.SetActive(false);
         Time.timeScale = 1;
-        bulletBuffAmount++;
+        
     }
 
     public void buffHP()

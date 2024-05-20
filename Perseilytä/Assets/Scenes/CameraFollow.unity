@@ -989,6 +989,7 @@ MonoBehaviour:
   damageBuff: 1
   bulletBuff: 0
   hpGiven: 0
+  bulletUpgradeButton: {fileID: 673608169}
 --- !u!1 &397685509
 GameObject:
   m_ObjectHideFlags: 0
@@ -3522,7 +3523,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -47.8, y: 0.7}
+  m_AnchoredPosition: {x: -32.6, y: 0.7}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1136784359
@@ -3545,7 +3546,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: +   Bullets
+  m_text: + Bulletcount
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 41dac1b3a6674a34d8c8b8d113f3378b, type: 2}
   m_sharedMaterial: {fileID: -8431101978418682781, guid: 41dac1b3a6674a34d8c8b8d113f3378b, type: 2}
