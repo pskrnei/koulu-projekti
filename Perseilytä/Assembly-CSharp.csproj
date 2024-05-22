@@ -65,7 +65,7 @@
     <Compile Include="Assets\2D Space Kit\Scripts\PSDestroy.cs" />
     <Compile Include="Assets\Scripts\GameScripts\ScoreManager.cs" />
     <Compile Include="Assets\Scripts\EnemyScripts\Damage.cs" />
-    <Compile Include="Assets\LeaderboadDB.cs" />
+    <Compile Include="Assets\Scripts\GameScripts\LeaderboadDB.cs" />
     <Compile Include="Assets\Scripts\GameScripts\MainMenuController.cs" />
     <Compile Include="Assets\2D Space Kit\Scripts\Crosshair.cs" />
     <Compile Include="Assets\Scripts\EnemyScripts\eBullet_2.1.cs" />

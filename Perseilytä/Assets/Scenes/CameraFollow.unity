@@ -991,7 +991,7 @@ MonoBehaviour:
   bulletBuff: 0
   hpGiven: 20
   bulletUpgradeButton: {fileID: 673608169}
-  feedbackText: {fileID: 0}
+  fireRateButton: {fileID: 1872960885}
 --- !u!82 &395033628
 AudioSource:
   m_ObjectHideFlags: 0

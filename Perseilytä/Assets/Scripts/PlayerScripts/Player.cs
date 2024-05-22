@@ -98,63 +98,55 @@ public class Player : MonoBehaviour
             }
     }
 
-
     private void Shoot()
     {
         audioSource.PlayOneShot(shootingAudioClip);
-        // audioSource.pitch = UnityEngine.Random.Range(1.8f, 2f);  aanen randomointiin, mutta toi rikkoo levelup soundin pitchin
-        
-        // rumasti luotipäivitykset, mutta se toimii.
+
+        Vector3 offset1 = new Vector3(0.3f, 0, 0);
+        Vector3 offset2 = new Vector3(-0.3f, 0, 0);
+        Vector3 offset3 = new Vector3(0.15f, 0, 0);
+        Vector3 offset4 = new Vector3(-0.15f, 0, 0);
+
+        float maxAngleOffset = 10f; // max angle randomoidulle tarkkuudelle
+
         if (quadrupleShot)
         {
-            Vector3 offset = new Vector3(0.3f, 0, 0); // Adjust offset as needed
-            Vector3 offset4 = new Vector3(0.15f, 0, 0); // offset neljälle luodille
-            GameObject bullet1 = Instantiate(bulletPrefab, firingPoint.position + offset, firingPoint.rotation);
-            GameObject bullet2 = Instantiate(bulletPrefab, firingPoint.position - offset, firingPoint.rotation);
-            GameObject bullet3 = Instantiate(bulletPrefab, firingPoint.position + offset4, firingPoint.rotation);
-            GameObject bullet4 = Instantiate(bulletPrefab, firingPoint.position - offset4, firingPoint.rotation);
-            Bullet_ bulletScript1 = bullet1.GetComponent<Bullet_>();
-            Bullet_ bulletScript2 = bullet2.GetComponent<Bullet_>();
-            Bullet_ bulletScript3 = bullet3.GetComponent<Bullet_>();
-            Bullet_ bulletScript4 = bullet4.GetComponent<Bullet_>();
-            bulletScript1.initializeDamage(player.bulletDamage);
-            bulletScript2.initializeDamage(player.bulletDamage);
-            bulletScript3.initializeDamage(player.bulletDamage);
-            bulletScript4.initializeDamage(player.bulletDamage);
+            CreateBullet(firingPoint.position + offset1, firingPoint.rotation, GetRandomAngleOffset(maxAngleOffset));
+            CreateBullet(firingPoint.position + offset2, firingPoint.rotation, GetRandomAngleOffset(maxAngleOffset));
+            CreateBullet(firingPoint.position + offset3, firingPoint.rotation, GetRandomAngleOffset(maxAngleOffset));
+            CreateBullet(firingPoint.position + offset4, firingPoint.rotation, GetRandomAngleOffset(maxAngleOffset));
         }
         else if (tripleShot)
         {
-            Vector3 offset = new Vector3(0.3f, 0, 0); // Adjust offset as needed
-            GameObject bullet1 = Instantiate(bulletPrefab, firingPoint.position + offset, firingPoint.rotation);
-            GameObject bullet2 = Instantiate(bulletPrefab, firingPoint.position - offset, firingPoint.rotation);
-            GameObject bullet3 = Instantiate(bulletPrefab, firingPoint.position, firingPoint.rotation);
-            Bullet_ bulletScript1 = bullet1.GetComponent<Bullet_>();
-            Bullet_ bulletScript2 = bullet2.GetComponent<Bullet_>();
-            Bullet_ bulletScript3 = bullet3.GetComponent<Bullet_>();
-            bulletScript1.initializeDamage(player.bulletDamage);
-            bulletScript2.initializeDamage(player.bulletDamage);
-            bulletScript3.initializeDamage(player.bulletDamage);
-        }  
+            CreateBullet(firingPoint.position + offset1, firingPoint.rotation, GetRandomAngleOffset(maxAngleOffset));
+            CreateBullet(firingPoint.position + offset2, firingPoint.rotation, GetRandomAngleOffset(maxAngleOffset));
+            CreateBullet(firingPoint.position, firingPoint.rotation, GetRandomAngleOffset(maxAngleOffset));
+        }
         else if (doubleShot)
         {
-            Vector3 offset = new Vector3(0.2f, 0, 0); // Adjust offset as needed
-            GameObject bullet1 = Instantiate(bulletPrefab, firingPoint.position + offset, firingPoint.rotation);
-            GameObject bullet2 = Instantiate(bulletPrefab, firingPoint.position - offset, firingPoint.rotation);
-            Bullet_ bulletScript1 = bullet1.GetComponent<Bullet_>();
-            Bullet_ bulletScript2 = bullet2.GetComponent<Bullet_>();
-            bulletScript1.initializeDamage(player.bulletDamage);
-            bulletScript2.initializeDamage(player.bulletDamage);
+            CreateBullet(firingPoint.position + offset1, firingPoint.rotation, GetRandomAngleOffset(maxAngleOffset));
+            CreateBullet(firingPoint.position + offset2, firingPoint.rotation, GetRandomAngleOffset(maxAngleOffset));
         }
         else
         {
-            // yks luoti alussa ja sitte kasvaa ku saa päivityksiä
-            GameObject bullet = Instantiate(bulletPrefab, firingPoint.position, firingPoint.rotation);
-            Bullet_ bulletScript = bullet.GetComponent<Bullet_>();
-            bulletScript.initializeDamage(player.bulletDamage);
+            CreateBullet(firingPoint.position, firingPoint.rotation, GetRandomAngleOffset(maxAngleOffset));
         }
     }
 
-    
+    private void CreateBullet(Vector3 position, Quaternion rotation, float angleOffset)
+    {
+        GameObject bullet = Instantiate(bulletPrefab, position, rotation);
+        Bullet_ bulletScript = bullet.GetComponent<Bullet_>();
+        bulletScript.initializeDamage(player.bulletDamage);
+        bullet.transform.Rotate(0, 0, angleOffset); // random tarkkuus
+    }
+
+    private float GetRandomAngleOffset(float maxAngle)
+    {
+        return UnityEngine.Random.Range(-maxAngle, maxAngle);
+    }
+
+
     //valahdyskoodi
     public SpriteRenderer playerSprite;
 

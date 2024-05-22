@@ -20,7 +20,8 @@ public class PowerUpMenuController : MonoBehaviour
     private playerHealth playerHealth;
 
     [SerializeField] Button bulletUpgradeButton;
-    [SerializeField] private Text feedbackText;
+    [SerializeField] Button fireRateButton;
+    //[SerializeField] private Text feedbackText; vois tehä tommosen textin noihi ku tulee max upgrade mutta ei oo aikaa.
 
     private void Start()
     {
@@ -48,13 +49,19 @@ public class PowerUpMenuController : MonoBehaviour
 
     public void buffFirerate()
     {
+        fireRateBuffAmount++;
+        if(fireRateBuffAmount >= 4)
+        {
+            fireRateButton.interactable = false;
+            //feedbackText.Text = "maximum firerate upgrade reached";
+        }
+        
         GameObject playerObject = GameObject.Find("Player");
         Player player = playerObject.GetComponent<Player>();
         player.fireRate -= fireRateBuff;
         
         powerUpMenu.SetActive(false);
-        Time.timeScale = 1;
-        fireRateBuffAmount++;
+        Time.timeScale = 1;  
     }
 
     public void buffDamage()
@@ -68,7 +75,6 @@ public class PowerUpMenuController : MonoBehaviour
     public void buffBullets()
     { 
         bulletBuffAmount++;
-        
         if(bulletBuffAmount >= 3)
         {
             bulletUpgradeButton.interactable = false;
