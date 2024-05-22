@@ -17,6 +17,7 @@ public class PowerUpMenuController : MonoBehaviour
     private int bulletBuffAmount = 0;
     private int hpBuffAmount = 0;
     private Player player;
+    private playerHealth playerHealth;
 
     [SerializeField] Button bulletUpgradeButton;
     [SerializeField] private Text feedbackText;
@@ -25,12 +26,24 @@ public class PowerUpMenuController : MonoBehaviour
     {
         GameObject playerObject = GameObject.Find("Player");
         player = playerObject.GetComponent<Player>();
+        playerHealth = playerObject.GetComponent<playerHealth>();
     }
 
+    private void Update()
+    {
+        if (Input.GetKeyUp(KeyCode.Escape))
+        {
+            if (powerUpMenu.activeSelf)
+            {
+                powerUpMenu.SetActive(false);
+            }
+        }
+    }
 
     public void togglePowerUpMenu()
     {
         powerUpMenu.SetActive(!powerUpMenu.activeSelf);
+        
     }
 
     public void buffFirerate()
@@ -88,10 +101,12 @@ public class PowerUpMenuController : MonoBehaviour
 
     public void buffHP()
     {
-        gameObject.GetComponent<Player>().fireRate -= fireRateBuff;
+        hpBuffAmount++;
+        
+        playerHealth.maxHealth += hpGiven;
         powerUpMenu.SetActive(false);
         Time.timeScale = 1;
-        hpBuffAmount++;
+       
     }
 
 }

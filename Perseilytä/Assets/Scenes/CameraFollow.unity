@@ -985,11 +985,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   powerUpMenu: {fileID: 1402290731}
-  fireRateBuff: 0.1
+  fireRateBuff: 0.05
   damageBuff: 1
   bulletBuff: 0
-  hpGiven: 0
+  hpGiven: 20
   bulletUpgradeButton: {fileID: 673608169}
+  feedbackText: {fileID: 0}
 --- !u!1 &397685509
 GameObject:
   m_ObjectHideFlags: 0
