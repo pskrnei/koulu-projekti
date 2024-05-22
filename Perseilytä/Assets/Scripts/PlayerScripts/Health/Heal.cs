@@ -31,6 +31,10 @@ public class Heal : MonoBehaviour
                 other.gameObject.GetComponent<playerHealth>().health += heal;
                 Destroy(gameObject);
             }
+            else
+            {
+                Destroy(gameObject);
+            }
         }
 
     }

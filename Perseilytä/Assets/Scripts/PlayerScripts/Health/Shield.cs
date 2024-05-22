@@ -29,7 +29,10 @@ public class Shield : MonoBehaviour
                 other.gameObject.GetComponent<PlayerShield>().shield += plusShield;
                 Destroy(gameObject);
             }
-            
+            else
+            {
+                Destroy(gameObject);
+            }
         }
 
     }
