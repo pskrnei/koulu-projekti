@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class PowerUpMenuController : MonoBehaviour
 {
@@ -11,18 +12,38 @@ public class PowerUpMenuController : MonoBehaviour
     [SerializeField] float bulletBuff;
     [SerializeField] float hpGiven;
 
+    private int fireRateBuffAmount = 0;
+    private int damageBuffAmount = 0;
+    private int bulletBuffAmount = 0;
+    private int hpBuffAmount = 0;
     private Player player;
+    private playerHealth playerHealth;
+
+    [SerializeField] Button bulletUpgradeButton;
+    [SerializeField] private Text feedbackText;
 
     private void Start()
     {
         GameObject playerObject = GameObject.Find("Player");
         player = playerObject.GetComponent<Player>();
+        playerHealth = playerObject.GetComponent<playerHealth>();
     }
 
+    private void Update()
+    {
+        if (Input.GetKeyUp(KeyCode.Escape))
+        {
+            if (powerUpMenu.activeSelf)
+            {
+                powerUpMenu.SetActive(false);
+            }
+        }
+    }
 
     public void togglePowerUpMenu()
     {
         powerUpMenu.SetActive(!powerUpMenu.activeSelf);
+        
     }
 
     public void buffFirerate()
@@ -33,6 +54,7 @@ public class PowerUpMenuController : MonoBehaviour
         
         powerUpMenu.SetActive(false);
         Time.timeScale = 1;
+        fireRateBuffAmount++;
     }
 
     public void buffDamage()
@@ -40,20 +62,51 @@ public class PowerUpMenuController : MonoBehaviour
         player.bulletDamage += damageBuff;
         powerUpMenu.SetActive(false);
         Time.timeScale = 1;
+        damageBuffAmount++;
     }
 
     public void buffBullets()
     { 
-        gameObject.GetComponent<Player>().fireRate -= fireRateBuff;
+        bulletBuffAmount++;
+        
+        if(bulletBuffAmount >= 3)
+        {
+            bulletUpgradeButton.interactable = false;
+           // feedbackText.Text = "maximum bulletcount upgrade reached";
+        }
+
+        switch (bulletBuffAmount)
+        {
+            case 1:
+            {
+                player.enableDoubleShot();
+                break;
+            }
+            case 2:
+            {
+                player.enableTripleShot();
+                break;
+            }
+            case 3:
+            {
+                player.enableQuadrupleShot();
+                break;
+            }
+        }
+        
         powerUpMenu.SetActive(false);
         Time.timeScale = 1;
+        
     }
 
     public void buffHP()
     {
-        gameObject.GetComponent<Player>().fireRate -= fireRateBuff;
+        hpBuffAmount++;
+        
+        playerHealth.maxHealth += hpGiven;
         powerUpMenu.SetActive(false);
         Time.timeScale = 1;
+       
     }
 
 }
