@@ -11,7 +11,7 @@ public class Shield : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        playerScript = FindObjectOfType<Player>(); // callaan "player" scriptin ett‰ saa flashred funktion
+        playerScript = FindObjectOfType<Player>();
     }
 
     // Update is called once per frame
@@ -24,9 +24,12 @@ public class Shield : MonoBehaviour
     {
         if (other.gameObject.CompareTag("Player"))
         {
-            //playerScript.StartCoroutine(playerScript.FlashRed()); //pelaaja v‰l‰ht‰‰ kun ottaa damagea
-            other.gameObject.GetComponent<PlayerShield>().shield += plusShield;
-            Destroy(gameObject);
+            if(other.gameObject.GetComponent<PlayerShield>().shield < other.gameObject.GetComponent<PlayerShield>().maxShield)
+            {
+                other.gameObject.GetComponent<PlayerShield>().shield += plusShield;
+                Destroy(gameObject);
+            }
+            
         }
 
     }

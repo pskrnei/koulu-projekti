@@ -13,7 +13,7 @@ public class Heal : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        playerScript = FindObjectOfType<Player>(); // callaan "player" scriptin ett‰ saa flashred funktion
+        playerScript = FindObjectOfType<Player>();
     }
 
     // Update is called once per frame
@@ -26,9 +26,11 @@ public class Heal : MonoBehaviour
     {
         if (other.gameObject.CompareTag("Player"))
         {
-            //playerScript.StartCoroutine(playerScript.FlashRed()); //pelaaja v‰l‰ht‰‰ kun ottaa damagea
-            other.gameObject.GetComponent<playerHealth>().health += heal;
-            Destroy(gameObject);
+            if(other.gameObject.GetComponent<playerHealth>().health < other.gameObject.GetComponent<playerHealth>().maxHealth)
+            { 
+                other.gameObject.GetComponent<playerHealth>().health += heal;
+                Destroy(gameObject);
+            }
         }
 
     }
