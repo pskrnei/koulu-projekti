@@ -83,6 +83,7 @@
     <Compile Include="Assets\Scripts\PlayerScripts\Health\Heal.cs" />
     <Compile Include="Assets\Scripts\ExpScripts\ExpManager.cs" />
     <Compile Include="Assets\2D Space Kit\Scripts\ShipCamera.cs" />
+    <Compile Include="Assets\Scripts\PlayerScripts\RajaPilvet.cs" />
     <Compile Include="Assets\2D Space Kit\Scripts\PlayerControlledTurret.cs" />
     <Compile Include="Assets\Scripts\GameScripts\GameOverScreenScript.cs" />
     <Compile Include="Assets\Scripts\PlayerScripts\PlayerShield.cs" />
