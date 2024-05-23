@@ -16,7 +16,7 @@ public class Damage : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-      playerScript = FindObjectOfType<Player>(); // callaan "player" scriptin että saa flashred funktion
+      playerScript = FindObjectOfType<Player>(); // callaan "player" scriptin ettï¿½ saa flashred funktion
     }
 
     // Update is called once per frame
@@ -25,7 +25,7 @@ public class Damage : MonoBehaviour
         
     }
 
-    private void OnCollisionEnter2D(Collision2D other)
+    private void OnTriggerEnter2D(Collider2D other)
     {
         if(other.gameObject.CompareTag("Player"))
         {
