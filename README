@@ -1,14 +1,1 @@
 Testi ja aloitus tälle projektille.
-
-- Tutustu OnCollisionStay/Exit.
-  - Jotta Bullet tuhoutuis kun se menee Camera follown Colliderin ulkopuolelle.
-    - Meneekö Bullet_2.0 vai CamreFollow scriptiin?
-
-- SQLite tietokannan käyttö?
-  - SQLite toimii unityn kanssa.
-    - Plug in?
-  - Ensin localisti ja myöhemmin serverille.
-  - Tallentais tiedot localisti jos ei saa yhteyttä verkkoon jottei tiedot poistu.
-
-
-- Käyttää [FixedUpdatea] koodissa
