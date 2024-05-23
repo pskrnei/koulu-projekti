@@ -4,34 +4,56 @@ using UnityEngine.UI;
 
 public class ScoreManager : MonoBehaviour
 {
-    public Text scoreText; // Viittaus tekstikenttään, jossa näytetään pistemäärä
-    public int score = 0; // Pistemäärä alussa on 0
+    public Text scoreText; // Viittaus tekstikenttï¿½ï¿½n, jossa nï¿½ytetï¿½ï¿½n pistemï¿½ï¿½rï¿½
+    public int score = 0; // Pistemï¿½ï¿½rï¿½ alussa on 0
     
+    [SerializeField] private GameObject[] extraSpawners; 
+
 
     void Start()
     {
-        // Etsitään tekstikenttä, jos sitä ei ole asetettu Inspectorissa
+        // Etsitï¿½ï¿½n tekstikenttï¿½, jos sitï¿½ ei ole asetettu Inspectorissa
         if (scoreText == null)
             scoreText = GetComponent<Text>();
 
-        // Päivitetään pistemäärä näytöllä
+        // Pï¿½ivitetï¿½ï¿½n pistemï¿½ï¿½rï¿½ nï¿½ytï¿½llï¿½
         UpdateScoreDisplay();
-
+        
         GameManagerScript.instance.scoreManager = this;
     }
 
-    // Metodi, jolla päivitetään pistemäärä näytöllä
+    void Update()
+    {
+        addSpawners();
+    }
+    // Metodi, jolla pï¿½ivitetï¿½ï¿½n pistemï¿½ï¿½rï¿½ nï¿½ytï¿½llï¿½
     void UpdateScoreDisplay()
     {
-        scoreText.text = "Score: " + score.ToString(); // Asetetaan tekstikentän sisältö pistemäärän mukaan
+        scoreText.text = "Score: " + score.ToString(); // Asetetaan tekstikentï¿½n sisï¿½ltï¿½ pistemï¿½ï¿½rï¿½n mukaan
     }
 
-    // Metodi, jota kutsutaan, kun pistemäärää pitää päivittää
+    // Metodi, jota kutsutaan, kun pistemï¿½ï¿½rï¿½ï¿½ pitï¿½ï¿½ pï¿½ivittï¿½ï¿½
     public void UpdateScore()
     {
         //gameManagerScript.updatePlayerScore(++score); koittaa tota jos muu toimii
-        score++; // Lisätään yksi piste pistemäärään
-        UpdateScoreDisplay(); // Päivitetään pistemäärä näytöllä
+        score++; // Lisï¿½tï¿½ï¿½n yksi piste pistemï¿½ï¿½rï¿½ï¿½n
+        UpdateScoreDisplay(); // Pï¿½ivitetï¿½ï¿½n pistemï¿½ï¿½rï¿½ nï¿½ytï¿½llï¿½
        // Debug.Log(score);
+    }
+
+    public void addSpawners()
+    {
+        for (int i = 0; i < extraSpawners.Length; i++)
+        {
+            // Vaadittu score uudelle spawnerille
+            if (score >= (i + 1) * 100)
+            {
+                // onko spawner jo aktiivinen
+                if (!extraSpawners[i].activeInHierarchy)
+                {
+                    extraSpawners[i].SetActive(true);
+                }
+            }
+        }
     }
 }
